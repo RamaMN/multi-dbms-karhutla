@@ -1,0 +1,7 @@
+[
+  {"prov_id": 1, "titik_hotspot": 185, "ispu_pm25": 280.5, "lahan_terbakar_ha": 3200.5},
+  {"prov_id": 2, "titik_hotspot": 290, "ispu_pm25": 340.2, "lahan_terbakar_ha": 4800.0},
+  {"prov_id": 3, "titik_hotspot": 210, "ispu_pm25": 295.0, "lahan_terbakar_ha": 3900.2},
+  {"prov_id": 4, "titik_hotspot": 95, "ispu_pm25": 160.8, "lahan_terbakar_ha": 1200.0},
+  {"prov_id": 5, "titik_hotspot": 12, "ispu_pm25": 85.0, "lahan_terbakar_ha": 50.0}
+]
