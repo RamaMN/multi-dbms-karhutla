@@ -7,6 +7,7 @@
 import logging
 import math
 import os
+import re
 
 import numpy as np
 import pandas as pd
@@ -17,7 +18,7 @@ from pymongo import MongoClient
 from sqlalchemy import create_engine, text
 
 from database.connections import build_pg_url, require_mongo_uri
-from database.reference_data import MONGO_COLS, mongo_docs, postgres_rows
+from database.reference_data import MONGO_COLS
 
 log = logging.getLogger("karhutla")
 st.set_page_config(page_title="Karhutla & Asap Lintas Negara", page_icon="🚨", layout="wide")
@@ -89,14 +90,26 @@ def load_mongo():
     return normalise_mongo(pd.DataFrame(docs))
 
 
-def load_source(loader, demo_factory):
-    """Return (dataframe, pesan_error). Jika gagal -> data demo + pesan error yang TAMPIL di UI."""
+def explain_error(e):
+    """Pesan error yang aman ditampilkan: password/URI disensor."""
+    if isinstance(e, (ValueError, RuntimeError)):
+        return str(e)
+    msg = f"{type(e).__name__}: {e}"
+    for key in ("PG_PASS", "PG_URL", "MONGO_URI"):
+        val = secret(key)
+        if val:
+            msg = msg.replace(val, "***")
+    msg = re.sub(r"(://[^:/@\s]+:)[^@\s]+@", r"\1***@", msg)
+    return msg[:400]
+
+
+def try_load(loader):
+    """Return (dataframe, None) jika sukses atau (None, pesan_error) jika gagal. Tidak ada data pengganti."""
     try:
         return loader(), None
     except Exception as e:
-        log.exception("Gagal memuat sumber data")  # detail lengkap hanya di log server
-        safe = str(e) if isinstance(e, (ValueError, RuntimeError)) else type(e).__name__
-        return demo_factory(), safe
+        log.exception("Gagal memuat sumber data")  # detail lengkap ada di log server (Manage app)
+        return None, explain_error(e)
 
 
 def integrate(df_pg, df_mongo):
@@ -122,15 +135,37 @@ def hbar(data, x, title, color, cmap, labels, hover=None):
 
 
 # ───────────────────────── 1. Muat & integrasikan data ─────────────────────────
-df_pg, err_pg = load_source(load_postgres, lambda: pd.DataFrame(postgres_rows()))
-df_mongo, err_mongo = load_source(load_mongo, lambda: normalise_mongo(pd.DataFrame(mongo_docs())))
+df_pg, err_pg = try_load(load_postgres)
+df_mongo, err_mongo = try_load(load_mongo)
 
 st.title("🚨 Multi-DBMS Data Pipeline: Karhutla, ISPA & Asap Lintas Negara")
 st.caption("🐘 PostgreSQL (data kesehatan)  +  🍃 MongoDB Atlas (telemetri sensor & geospasial)  →  pandas merge  →  Plotly")
 
+sb = st.sidebar
+sb.header("🔌 Status Koneksi")
+for icon, name, err, data in [("🐘", "PostgreSQL", err_pg, df_pg), ("🍃", "MongoDB", err_mongo, df_mongo)]:
+    if err is None:
+        sb.success(f"{icon} {name}: terhubung ({len(data)} data)")
+    else:
+        sb.error(f"{icon} {name}: gagal terhubung")
+if sb.button("🔄 Muat ulang data"):
+    st.cache_data.clear()
+    st.rerun()
+
 if err_pg or err_mongo:
-    detail = "; ".join(f"{n}: {e}" for n, e in [("PostgreSQL", err_pg), ("MongoDB", err_mongo)] if e)
-    st.warning(f"⚠️ **MODE DEMO** — data berikut bukan dari database langsung. {detail}")
+    st.error("❌ Dashboard tidak dapat memuat data dari database.")
+    for name, err in [("🐘 PostgreSQL", err_pg), ("🍃 MongoDB", err_mongo)]:
+        if err:
+            st.markdown(f"**{name}**")
+            st.code(err, language=None)
+    st.info(
+        "**Periksa berurutan:**\n"
+        "1. Secrets terisi (Streamlit Cloud → App → Settings → Secrets): `PG_URL` dan `MONGO_URI`.\n"
+        "2. Database sudah di-seed: `python database/seed_data.py`.\n"
+        "3. Supabase: pakai connection string **pooler** (koneksi langsung memakai IPv6).\n"
+        "4. MongoDB Atlas → Network Access: izinkan akses dari Streamlit Cloud (mis. `0.0.0.0/0`).\n"
+        "5. Klik **🔄 Muat ulang data** di sidebar.")
+    st.stop()
 
 try:
     df_all, only_pg, only_mongo = integrate(df_pg, df_mongo)
@@ -141,16 +176,7 @@ if df_all.empty:
     st.error("Tidak ada prov_id yang cocok antara PostgreSQL dan MongoDB.")
     st.stop()
 
-# ───────────────────────── 2. Sidebar ─────────────────────────
-sb = st.sidebar
-sb.header("🔌 Status Koneksi")
-for icon, name, err, n in [("🐘", "PostgreSQL", err_pg, len(df_pg)), ("🍃", "MongoDB", err_mongo, len(df_mongo))]:
-    (sb.success if err is None else sb.error)(
-        f"{icon} {name}: terhubung ({n} data)" if err is None else f"{icon} {name}: gagal → data demo")
-if sb.button("🔄 Muat ulang data"):
-    st.cache_data.clear()
-    st.rerun()
-
+# ───────────────────────── 2. Filter ─────────────────────────
 sb.header("🔍 Filter")
 pulau_opts = sorted(df_all["pulau"].unique())
 sel_pulau = sb.multiselect("Pulau", pulau_opts, default=pulau_opts)

@@ -9,7 +9,11 @@ from sqlalchemy.engine import URL
 def build_pg_url(get):
     url = get("PG_URL")
     if url:  # contoh: postgresql://user:pass@host:5432/postgres
-        return url.replace("postgres://", "postgresql://", 1)
+        # Paksa driver psycopg2: SQLAlchemy terbaru memakai psycopg (v3) untuk skema "postgresql://".
+        for prefix in ("postgresql+psycopg2://", "postgresql://", "postgres://"):
+            if url.startswith(prefix):
+                return "postgresql+psycopg2://" + url[len(prefix):]
+        return url
     host = get("PG_HOST")
     if not host:
         raise RuntimeError("PG_URL atau PG_HOST belum diatur (lihat README bagian Konfigurasi).")

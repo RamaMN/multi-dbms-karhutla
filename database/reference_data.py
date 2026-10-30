@@ -1,8 +1,7 @@
 """Sumber tunggal data seed.
 
-Dipakai oleh:
-  - database/seed_data.py  -> mengisi PostgreSQL & MongoDB
-  - app.py                 -> hanya untuk MODE DEMO (jika koneksi database gagal)
+Dipakai oleh database/seed_data.py untuk mengisi PostgreSQL & MongoDB
+(app.py hanya membaca dari kedua database, tidak memakai file ini untuk data).
 
 PENTING: ganti nilai di bawah dengan data asli dari sumber primer
 (lihat README bagian "Sumber Data") sebelum dikumpulkan.

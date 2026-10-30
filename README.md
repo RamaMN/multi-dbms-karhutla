@@ -31,7 +31,7 @@ flowchart LR
 2. `integrate()` melakukan `merge(..., on="prov_id", validate="one_to_one")` dan melaporkan `prov_id` yang hanya ada di salah satu DBMS.
 3. Nilai ISPU dikelompokkan ke kategori resmi (Baik … Berbahaya), lalu difilter dan divisualkan.
 4. Hasil dimuat dengan cache 10 menit; tombol "Muat ulang data" membersihkan cache.
-5. Jika koneksi gagal, aplikasi masuk **mode demo** dengan banner peringatan dan status koneksi di sidebar (tidak diam-diam memakai data palsu).
+5. Jika koneksi gagal, aplikasi menampilkan penyebab spesifik (password disensor) dan berhenti. Tidak ada data pengganti: semua angka selalu berasal dari kedua database.
 
 ## 3. Fitur interaktif
 
@@ -42,7 +42,7 @@ flowchart LR
 - Scatter ISPU vs korban meninggal dengan garis tren dan koefisien korelasi (n ditampilkan)
 - Bar chart korban, hotspot, dan luas lahan terbakar
 - Tabel hasil join + unduh CSV
-- Indikator status koneksi tiap DBMS dan tombol muat ulang
+- Indikator status koneksi tiap DBMS dan tombol muat ulang data
 
 ## 4. Struktur repositori
 
@@ -74,7 +74,8 @@ Variabel: `PG_URL` (atau `PG_HOST`, `PG_PORT`, `PG_DB`, `PG_USER`, `PG_PASS`, `P
 
 Catatan:
 - Supabase: koneksi langsung (`db.<ref>.supabase.co`) memakai IPv6 dan bisa gagal dari Streamlit Cloud (`Network is unreachable`). Gunakan connection string **pooler** dari dashboard Supabase.
-- MongoDB Atlas: tambahkan IP yang diizinkan (Network Access) agar Streamlit Cloud dapat terhubung.
+- MongoDB Atlas: di Network Access izinkan akses dari Streamlit Cloud (IP-nya dinamis, umumnya `0.0.0.0/0`; gunakan password kuat).
+- Seed dari laptop lokal: isi `.streamlit/secrets.toml`, lalu `python database/seed_data.py`.
 
 ## 6. Sumber data (primer)
 
