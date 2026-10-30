@@ -7,10 +7,10 @@ from pymongo import MongoClient
 import os
 
 # 1. Konfigurasi Halaman
-st.set_page_config(page_title="Multi-DBMS Karhutla & ISPA Pipeline", page_icon="🚨", layout="wide")
+st.set_page_config(page_title="Multi-DBMS Karhutla & Transboundary Haze", page_icon="🚨", layout="wide")
 
-st.title("🚨 Multi-DBMS Data Pipeline: Karhutla, ISPU & ISPA Crisis Center")
-st.caption("Integrasi Data Relational (PostgreSQL) + NoSQL Document (MongoDB) - Wilayah Sumatera, Kalimantan, & Jawa")
+st.title("🚨 Multi-DBMS Data Pipeline: Karhutla, ISPA & Dampak Asap Lintas Negara")
+st.caption("Integrasi Data Relational (PostgreSQL) + NoSQL Document (MongoDB) - Monitoring Karhutla & Transboundary Haze Regional")
 
 # 2. Parameter Koneksi Database
 PG_HOST = os.getenv("PG_HOST", "localhost")
@@ -28,7 +28,7 @@ def fetch_and_integrate_data():
         df_pg = pd.read_sql("SELECT prov_id, nama_provinsi, pulau, total_ispa, korban_meninggal FROM data_kesehatan;", conn)
         conn.close()
     except Exception:
-        # Data Master Kesehatan (PostgreSQL) - Wilayah Sumatera, Kalimantan, & Jawa
+        # Data Master Kesehatan (PostgreSQL)
         df_pg = pd.DataFrame({
             'prov_id': [1, 2, 3, 4, 5, 6, 7, 8, 9],
             'nama_provinsi': [
@@ -51,12 +51,23 @@ def fetch_and_integrate_data():
         df_mongo = pd.DataFrame(data_mongo)
         client.close()
     except Exception:
-        # Data Telemetri Sensor (MongoDB) - Wilayah Sumatera, Kalimantan, & Jawa
+        # Data Telemetri Sensor & Dampak Lintas Negara (MongoDB)
         df_mongo = pd.DataFrame({
             'prov_id': [1, 2, 3, 4, 5, 6, 7, 8, 9],
             'titik_hotspot': [185, 240, 95, 290, 210, 145, 12, 45, 30],
             'ispu_pm25': [280.5, 310.0, 160.8, 340.2, 295.0, 220.4, 85.0, 120.5, 105.0],
             'lahan_terbakar_ha': [3200.5, 4100.2, 1200.0, 4800.0, 3900.2, 2100.5, 50.0, 350.0, 210.0],
+            'negara_terdampak': [
+                'Indonesia, Singapura, Malaysia', 
+                'Indonesia, Singapura', 
+                'Indonesia', 
+                'Indonesia, Malaysia, Brunei Darussalam', 
+                'Indonesia, Malaysia', 
+                'Indonesia, Brunei Darussalam', 
+                'Indonesia', 
+                'Indonesia', 
+                'Indonesia'
+            ],
             'lat': [0.5104, -3.3199, -1.6101, -1.6815, -0.0263, 0.5387, -6.2088, -6.9175, -7.2504],
             'lon': [101.4383, 104.9147, 103.6131, 113.3824, 109.3425, 116.4194, 106.8456, 107.6191, 112.7688]
         })
@@ -65,7 +76,7 @@ def fetch_and_integrate_data():
 
 df_raw = fetch_and_integrate_data()
 
-# 4. Sidebar Filter (Termasuk Filter Pulau)
+# 4. Sidebar Filter
 st.sidebar.header("🔍 Filter & Kontrol Dashboard")
 
 selected_island = st.sidebar.multiselect(
@@ -97,14 +108,22 @@ df = df_raw[
 if df.empty:
     st.warning("⚠️ Tidak ada data yang sesuai dengan kombinasi filter Anda.")
 else:
-    # 5. Status Peringatan Dini (Early Warning System)
+    # 5. Status Peringatan Dini & Dampak Transboundary Haze
     avg_ispu = df['ispu_pm25'].mean()
+    
+    # Kumpulkan daftar unik negara yang terdampak berdasarkan filter
+    all_countries = set()
+    for countries_str in df['negara_terdampak']:
+        for c in countries_str.split(','):
+            all_countries.add(c.strip())
+    affected_countries_list = ", ".join(sorted(list(all_countries)))
+
     if avg_ispu > 300:
-        st.error("🚨 **STATUS DARURAT BENCANA**: Rata-rata ISPU wilayah terpilih berada dalam kategori BERBAHAYA (>300)!")
+        st.error(f"🚨 **STATUS DARURAT BENCANA (TRANSBOUNDARY HAZE)**: Rata-rata ISPU berisiko tinggi melintas batas negara! Negara terdampak: **{affected_countries_list}**.")
     elif avg_ispu > 200:
-        st.warning("⚠️ **STATUS SIAGA**: Rata-rata ISPU wilayah terpilih berada dalam kategori SANGAT TIDAK SEHAT (200-300).")
+        st.warning(f"⚠️ **STATUS SIAGA ASAP**: Sebaran kabut asap mulai berpotensi menjangkau wilayah regional. Negara terdampak: **{affected_countries_list}**.")
     else:
-        st.info("✅ **STATUS WASPADA/AMAN**: Rata-rata ISPU masih dalam ambang batas toleransi.")
+        st.info(f"✅ **STATUS WASPADA/AMAN**: Kabut asap terisolasi lokal. Negara terdampak: **{affected_countries_list}**.")
 
     # 6. Ringkasan KPI Metrics
     c1, c2, c3, c4, c5 = st.columns(5)
@@ -123,6 +142,7 @@ else:
         fig_scatter = px.scatter(
             df, x="ispu_pm25", y="korban_meninggal", size="total_ispa", 
             color="nama_provinsi", symbol="pulau", hover_name="nama_provinsi",
+            hover_data=["negara_terdampak"],
             labels={"ispu_pm25": "Nilai ISPU PM2.5", "korban_meninggal": "Korban Meninggal (Jiwa)"}
         )
         st.plotly_chart(fig_scatter, use_container_width=True)
@@ -131,18 +151,18 @@ else:
         st.subheader("Top Provinsi Korban Meninggal Dunia")
         fig_bar = px.bar(
             df.sort_values('korban_meninggal'), x="korban_meninggal", y="nama_provinsi", 
-            orientation='h', color="pulau",
+            orientation='h', color="pulau", hover_data=["negara_terdampak"],
             labels={"korban_meninggal": "Jumlah Korban", "nama_provinsi": "Provinsi"}
         )
         st.plotly_chart(fig_bar, use_container_width=True)
 
-    # 8. Peta Sebaran Spasial Hotspot
-    st.subheader("🗺️ Peta Sebaran Titik Hotspot & ISPU Spasial (Sumatera, Kalimantan, Jawa)")
+    # 8. Peta Sebaran Spasial Hotspot & Transboundary Haze
+    st.subheader("🗺️ Peta Spasial Hotspot & Jangkauan Asap Lintas Negara")
     fig_map = px.scatter_geo(
         df, lat="lat", lon="lon", color="ispu_pm25", size="titik_hotspot",
-        hover_name="nama_provinsi", scope="asia",
-        center={"lat": -2.5, "lon": 108.0},
-        title="Distribusi Hotspot Karhutla di Pulau Sumatera, Kalimantan, & Jawa"
+        hover_name="nama_provinsi", hover_data=["negara_terdampak"], scope="asia",
+        center={"lat": 1.5, "lon": 108.0},
+        title="Distribusi Hotspot Karhutla & Potensi Transboundary Haze ke Negara Tetangga"
     )
     st.plotly_chart(fig_map, use_container_width=True)
 
@@ -153,6 +173,6 @@ else:
         st.download_button(
             label="📥 Unduh Data Gabungan (CSV)",
             data=csv_data,
-            file_name="multi_dbms_karhutla_sumatera_kalimantan_jawa.csv",
+            file_name="multi_dbms_karhutla_transboundary_haze.csv",
             mime="text/csv"
         )
