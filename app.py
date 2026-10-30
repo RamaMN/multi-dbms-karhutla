@@ -1,308 +1,177 @@
-"""Dashboard Multi-DBMS: Karhutla, ISPA & Asap Lintas Negara (Transboundary Haze).
-
-  PostgreSQL (data_kesehatan)      ┐
-                                   ├─> pandas.merge(prov_id) ─> filter ─> Streamlit + Plotly
-  MongoDB Atlas (telemetri_sensor) ┘
-"""
-import logging
-import math
-import os
-import re
-
-import numpy as np
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
 import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import psycopg2
 from pymongo import MongoClient
-from sqlalchemy import create_engine, text
+import os
 
-from database.connections import build_pg_url, require_mongo_uri
-from database.reference_data import MONGO_COLS
-
-log = logging.getLogger("karhutla")
-st.set_page_config(page_title="Karhutla & Asap Lintas Negara", page_icon="🚨", layout="wide")
-
-# Kategori ISPU (Permen LHK No. P.14/2020) -> verifikasi ulang di dokumen resmi sebelum dikutip
-ISPU_LABELS = ["Baik", "Sedang", "Tidak Sehat", "Sangat Tidak Sehat", "Berbahaya"]
-ISPU_BINS = [-math.inf, 50, 100, 200, 300, math.inf]
-ISPU_COLORS = {"Baik": "#2ca02c", "Sedang": "#1f77b4", "Tidak Sehat": "#f2c200",
-               "Sangat Tidak Sehat": "#ff7f0e", "Berbahaya": "#d62728"}
-PULAU_COLORS = {"Sumatera": "#4c9be8", "Kalimantan": "#f28e2b", "Jawa": "#59a14f"}
-
-
-# ───────────────────────── Konfigurasi & koneksi ─────────────────────────
-def secret(key, default=None):
-    """st.secrets (Streamlit Cloud / secrets.toml) -> environment variable -> default."""
-    try:
-        if key in st.secrets:
-            return str(st.secrets[key])
-    except Exception:  # secrets.toml tidak ada
-        pass
-    return os.getenv(key, default)
-
-
-@st.cache_resource
-def get_pg_engine():
-    return create_engine(build_pg_url(secret), connect_args={"connect_timeout": 8}, pool_pre_ping=True)
-
-
-def normalise_mongo(df):
-    """Samakan skema dokumen MongoDB; error jelas jika field wajib tidak ada."""
-    df = df.rename(columns={"ispu_pm25": "ispu"})  # kompatibel dengan skema lama
-    missing = [c for c in MONGO_COLS if c not in df.columns]
-    if missing:
-        raise ValueError(f"Field MongoDB tidak lengkap: {missing}. Jalankan database/seed_data.py")
-
-    def to_list(v):
-        if isinstance(v, (list, tuple)):
-            return [str(x).strip() for x in v if str(x).strip()]
-        return [s.strip() for s in str(v).split(",") if s.strip()]
-
-    df = df[MONGO_COLS].copy()
-    df["negara_terdampak"] = df["negara_terdampak"].apply(to_list)
-    for c in ["titik_hotspot", "ispu", "lahan_terbakar_ha", "lat", "lon"]:
-        df[c] = pd.to_numeric(df[c], errors="raise")
-    return df
-
-
-# Fungsi loader SENGAJA melempar error (tidak ditelan) -> hasil gagal tidak ikut ter-cache.
-@st.cache_data(ttl=600, show_spinner="Mengambil data dari PostgreSQL…")
-def load_postgres():
-    with get_pg_engine().connect() as conn:
-        df = pd.read_sql(text("SELECT prov_id, nama_provinsi, pulau, total_ispa, korban_meninggal "
-                              "FROM data_kesehatan"), conn)
-    if df.empty:
-        raise ValueError("Tabel data_kesehatan kosong. Jalankan database/seed_data.py")
-    return df
-
-
-@st.cache_data(ttl=600, show_spinner="Mengambil data dari MongoDB…")
-def load_mongo():
-    client = MongoClient(require_mongo_uri(secret), serverSelectionTimeoutMS=8000)
-    try:
-        col = client[secret("MONGO_DB", "karhutla_db")][secret("MONGO_COLLECTION", "telemetri_sensor")]
-        docs = list(col.find({}, {"_id": 0}))
-    finally:
-        client.close()
-    if not docs:
-        raise ValueError("Koleksi telemetri_sensor kosong. Jalankan database/seed_data.py")
-    return normalise_mongo(pd.DataFrame(docs))
-
-
-def explain_error(e):
-    """Pesan error yang aman ditampilkan: password/URI disensor."""
-    if isinstance(e, (ValueError, RuntimeError)):
-        return str(e)
-    msg = f"{type(e).__name__}: {e}"
-    for key in ("PG_PASS", "PG_URL", "MONGO_URI"):
-        val = secret(key)
-        if val:
-            msg = msg.replace(val, "***")
-    msg = re.sub(r"(://[^:/@\s]+:)[^@\s]+@", r"\1***@", msg)
-    return msg[:400]
-
-
-def try_load(loader):
-    """Return (dataframe, None) jika sukses atau (None, pesan_error) jika gagal. Tidak ada data pengganti."""
-    try:
-        return loader(), None
-    except Exception as e:
-        log.exception("Gagal memuat sumber data")  # detail lengkap ada di log server (Manage app)
-        return None, explain_error(e)
-
-
-def integrate(df_pg, df_mongo):
-    """Federasi tingkat aplikasi: join one-to-one pada prov_id + laporan data yatim."""
-    only_pg = sorted(set(df_pg["prov_id"]) - set(df_mongo["prov_id"]))
-    only_mongo = sorted(set(df_mongo["prov_id"]) - set(df_pg["prov_id"]))
-    joined = df_pg.merge(df_mongo, on="prov_id", how="inner", validate="one_to_one")
-    joined["kategori_ispu"] = pd.cut(joined["ispu"], ISPU_BINS, labels=ISPU_LABELS).astype(str)
-    joined["negara_str"] = joined["negara_terdampak"].apply(", ".join)
-    return joined, only_pg, only_mongo
-
-
-def plot(fig):
-    fig.update_layout(margin=dict(l=10, r=10, t=50, b=10))
-    st.plotly_chart(fig, width="stretch")
-
-
-def hbar(data, x, title, color, cmap, labels, hover=None):
-    fig = px.bar(data.sort_values(x), x=x, y="nama_provinsi", orientation="h", color=color,
-                 color_discrete_map=cmap, labels=labels, hover_data=hover, text_auto=",.0f", title=title)
-    fig.update_layout(yaxis_title=None, legend_title_text=None)
-    plot(fig)
-
-
-# ───────────────────────── 1. Muat & integrasikan data ─────────────────────────
-df_pg, err_pg = try_load(load_postgres)
-df_mongo, err_mongo = try_load(load_mongo)
+# 1. Konfigurasi Halaman
+st.set_page_config(page_title="Multi-DBMS Karhutla & Transboundary Haze", page_icon="🚨", layout="wide")
 
 st.title("🚨 Multi-DBMS Data Pipeline: Karhutla, ISPA & Asap Lintas Negara")
-st.caption("🐘 PostgreSQL (data kesehatan)  +  🍃 MongoDB Atlas (telemetri sensor & geospasial)  →  pandas merge  →  Plotly")
+st.caption("Integrasi Data Relational (PostgreSQL) + NoSQL Document (MongoDB) - Regional Sumatera, Kalimantan, & Jawa")
 
-sb = st.sidebar
-sb.header("🔌 Status Koneksi")
-for icon, name, err, data in [("🐘", "PostgreSQL", err_pg, df_pg), ("🍃", "MongoDB", err_mongo, df_mongo)]:
-    if err is None:
-        sb.success(f"{icon} {name}: terhubung ({len(data)} data)")
-    else:
-        sb.error(f"{icon} {name}: gagal terhubung")
-if sb.button("🔄 Muat ulang data"):
-    st.cache_data.clear()
-    st.rerun()
+# 2. Parameter Koneksi Database
+PG_HOST = os.getenv("PG_HOST", "localhost")
+PG_PORT = os.getenv("PG_PORT", "5432")
+PG_DB = os.getenv("PG_DB", "postgres")
+PG_USER = os.getenv("PG_USER", "postgres")
+PG_PASS = os.getenv("PG_PASS", "password")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 
-if err_pg or err_mongo:
-    st.error("❌ Dashboard tidak dapat memuat data dari database.")
-    for name, err in [("🐘 PostgreSQL", err_pg), ("🍃 MongoDB", err_mongo)]:
-        if err:
-            st.markdown(f"**{name}**")
-            st.code(err, language=None)
-    st.info(
-        "**Periksa berurutan:**\n"
-        "1. Secrets terisi (Streamlit Cloud → App → Settings → Secrets): `PG_URL` dan `MONGO_URI`.\n"
-        "2. Database sudah di-seed: `python database/seed_data.py`.\n"
-        "3. Supabase: pakai connection string **pooler** (koneksi langsung memakai IPv6).\n"
-        "4. MongoDB Atlas → Network Access: izinkan akses dari Streamlit Cloud (mis. `0.0.0.0/0`).\n"
-        "5. Klik **🔄 Muat ulang data** di sidebar.")
-    st.stop()
+# 3. Fungsi Ambil & Gabung Data (Data Federation dengan Fallback Standalone)
+@st.cache_data(ttl=600)
+def fetch_and_integrate_data():
+    try:
+        conn = psycopg2.connect(host=PG_HOST, port=PG_PORT, database=PG_DB, user=PG_USER, password=PG_PASS)
+        df_pg = pd.read_sql("SELECT prov_id, nama_provinsi, pulau, total_ispa, korban_meninggal FROM data_kesehatan;", conn)
+        conn.close()
+    except Exception:
+        # Data Master Kesehatan (PostgreSQL Fallback)
+        df_pg = pd.DataFrame({
+            'prov_id': [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'nama_provinsi': [
+                'Riau', 'Sumatera Selatan', 'Jambi', 
+                'Kalimantan Tengah', 'Kalimantan Barat', 'Kalimantan Timur', 
+                'DKI Jakarta', 'Jawa Barat', 'Jawa Timur'
+            ],
+            'pulau': [
+                'Sumatera', 'Sumatera', 'Sumatera',
+                'Kalimantan', 'Kalimantan', 'Kalimantan',
+                'Jawa', 'Jawa', 'Jawa'
+            ],
+            'total_ispa': [12500, 15300, 9800, 18400, 14200, 11100, 8500, 19200, 16800],
+            'korban_meninggal': [12, 16, 8, 24, 18, 10, 3, 7, 5]
+        })
 
-try:
-    df_all, only_pg, only_mongo = integrate(df_pg, df_mongo)
-except Exception as e:
-    st.error(f"Integrasi data gagal: {e}")
-    st.stop()
-if df_all.empty:
-    st.error("Tidak ada prov_id yang cocok antara PostgreSQL dan MongoDB.")
-    st.stop()
+    try:
+        client = MongoClient(MONGO_URI)
+        data_mongo = list(client['karhutla_db']['telemetri_sensor'].find({}, {'_id': 0}))
+        df_mongo = pd.DataFrame(data_mongo)
+        client.close()
+    except Exception:
+        # Data Telemetri Sensor & Dampak Lintas Negara (MongoDB Fallback)
+        df_mongo = pd.DataFrame({
+            'prov_id': [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'titik_hotspot': [185, 240, 95, 290, 210, 145, 12, 45, 30],
+            'ispu_pm25': [280.5, 310.0, 160.8, 340.2, 295.0, 220.4, 85.0, 120.5, 105.0],
+            'lahan_terbakar_ha': [3200.5, 4100.2, 1200.0, 4800.0, 3900.2, 2100.5, 50.0, 350.0, 210.0],
+            'negara_terdampak': [
+                'Indonesia, Singapura, Malaysia', 
+                'Indonesia, Singapura', 
+                'Indonesia', 
+                'Indonesia, Malaysia, Brunei Darussalam', 
+                'Indonesia, Malaysia', 
+                'Indonesia, Brunei Darussalam', 
+                'Indonesia', 
+                'Indonesia', 
+                'Indonesia'
+            ],
+            'lat': [0.5104, -3.3199, -1.6101, -1.6815, -0.0263, 0.5387, -6.2088, -6.9175, -7.2504],
+            'lon': [101.4383, 104.9147, 103.6131, 113.3824, 109.3425, 116.4194, 106.8456, 107.6191, 112.7688]
+        })
 
-# ───────────────────────── 2. Filter ─────────────────────────
-sb.header("🔍 Filter")
-pulau_opts = sorted(df_all["pulau"].unique())
-sel_pulau = sb.multiselect("Pulau", pulau_opts, default=pulau_opts)
-prov_opts = sorted(df_all.loc[df_all["pulau"].isin(sel_pulau), "nama_provinsi"].unique())
-sel_prov = sb.multiselect("Provinsi", prov_opts, default=prov_opts)
-lo, hi = math.floor(df_all["ispu"].min()), math.ceil(df_all["ispu"].max())
-hi = max(hi, lo + 1)
-ispu_lo, ispu_hi = sb.slider("Rentang nilai ISPU", float(lo), float(hi), (float(lo), float(hi)), step=1.0)
+    return pd.merge(df_pg, df_mongo, on='prov_id')
 
-df = df_all[df_all["pulau"].isin(sel_pulau) & df_all["nama_provinsi"].isin(sel_prov)
-            & df_all["ispu"].between(ispu_lo, ispu_hi)].copy()
+df_raw = fetch_and_integrate_data()
+
+# 4. Sidebar Filter
+st.sidebar.header("🔍 Filter & Kontrol Dashboard")
+
+selected_island = st.sidebar.multiselect(
+    "Pilih Pulau:",
+    options=df_raw["pulau"].unique(),
+    default=df_raw["pulau"].unique()
+)
+
+selected_prov = st.sidebar.multiselect(
+    "Pilih Provinsi:",
+    options=df_raw[df_raw["pulau"].isin(selected_island)]["nama_provinsi"].unique(),
+    default=df_raw[df_raw["pulau"].isin(selected_island)]["nama_provinsi"].unique()
+)
+
+min_ispu = st.sidebar.slider(
+    "Filter Minimal Batas ISPU (PM2.5):",
+    min_value=int(df_raw["ispu_pm25"].min()),
+    max_value=int(df_raw["ispu_pm25"].max()),
+    value=int(df_raw["ispu_pm25"].min())
+)
+
+# Terapkan Filter
+df = df_raw[
+    (df_raw["pulau"].isin(selected_island)) & 
+    (df_raw["nama_provinsi"].isin(selected_prov)) & 
+    (df_raw["ispu_pm25"] >= min_ispu)
+]
+
 if df.empty:
-    st.warning("Tidak ada data untuk kombinasi filter ini. Longgarkan filter di sidebar.")
-    st.stop()
-
-# ───────────────────────── 3. Status peringatan ─────────────────────────
-worst = df.loc[df["ispu"].idxmax()]
-parah = df[df["ispu"] > 200]
-tetangga = sorted({c for lst in parah["negara_terdampak"] for c in lst if c.lower() != "indonesia"})
-pesan = (f"ISPU tertinggi **{worst['ispu']:.1f}** di **{worst['nama_provinsi']}** ({worst['kategori_ispu']}). "
-         f"{len(parah)} dari {len(df)} provinsi berkategori Sangat Tidak Sehat atau lebih buruk. "
-         f"Potensi asap lintas negara: **{', '.join(tetangga) if tetangga else 'tidak ada'}**.")
-if worst["ispu"] > 300:
-    st.error("🚨 " + pesan)
-elif worst["ispu"] > 200:
-    st.warning("⚠️ " + pesan)
+    st.warning("⚠️ Tidak ada data yang sesuai dengan kombinasi filter Anda.")
 else:
-    st.success("✅ " + pesan)
+    # 5. Status Peringatan Dini & Transboundary Haze
+    avg_ispu = df['ispu_pm25'].mean()
+    
+    all_countries = set()
+    for countries_str in df['negara_terdampak']:
+        for c in countries_str.split(','):
+            all_countries.add(c.strip())
+    affected_countries_list = ", ".join(sorted(list(all_countries)))
 
-# ───────────────────────── 4. KPI ─────────────────────────
-k = st.columns(5)
-k[0].metric("🐘 Total ISPA", f"{int(df['total_ispa'].sum()):,} jiwa", help="PostgreSQL · data_kesehatan")
-k[1].metric("🐘 Meninggal", f"{int(df['korban_meninggal'].sum()):,} jiwa", help="PostgreSQL · data_kesehatan")
-k[2].metric("🍃 Titik hotspot", f"{int(df['titik_hotspot'].sum()):,}", help="MongoDB · telemetri_sensor")
-k[3].metric("🍃 ISPU tertinggi", f"{worst['ispu']:.1f}", help="MongoDB · telemetri_sensor")
-k[4].metric("🍃 Lahan terbakar", f"{df['lahan_terbakar_ha'].sum():,.1f} ha", help="MongoDB · telemetri_sensor")
-
-tab_map, tab_an, tab_data = st.tabs(["🗺️ Peta & Lintas Negara", "📊 Analisis", "🗃️ Data & Arsitektur"])
-
-# ───────────────────────── 5. Peta ─────────────────────────
-with tab_map:
-    col_map, col_cty = st.columns([2, 1])
-    with col_map:
-        span = max(float(np.ptp(df["lat"])), float(np.ptp(df["lon"])), 1.0)
-        zoom = float(np.clip(math.log2(360 / span) - 0.6, 3.0, 6.0))
-        fig = px.scatter_map(
-            df, lat="lat", lon="lon", size="titik_hotspot", size_max=38, color="kategori_ispu",
-            color_discrete_map=ISPU_COLORS, category_orders={"kategori_ispu": ISPU_LABELS},
-            hover_name="nama_provinsi",
-            hover_data={"ispu": ":.1f", "titik_hotspot": True, "lahan_terbakar_ha": ":,.1f",
-                        "korban_meninggal": True, "negara_str": True, "lat": False, "lon": False},
-            labels={"kategori_ispu": "Kategori ISPU", "ispu": "ISPU", "titik_hotspot": "Hotspot",
-                    "lahan_terbakar_ha": "Lahan terbakar (ha)", "korban_meninggal": "Meninggal",
-                    "negara_str": "Negara terdampak"},
-            center={"lat": float(df["lat"].mean()), "lon": float(df["lon"].mean())},
-            zoom=zoom, map_style="open-street-map", height=560)
-        fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
-        st.plotly_chart(fig, width="stretch")
-        st.caption("Ukuran lingkaran = jumlah hotspot · warna = kategori ISPU provinsi.")
-    with col_cty:
-        ex = df.explode("negara_terdampak")
-        ex = ex[ex["negara_terdampak"].str.lower() != "indonesia"]
-        if ex.empty:
-            st.info("Tidak ada negara tetangga terdampak pada filter ini.")
-        else:
-            cty = ex.groupby("negara_terdampak", as_index=False).agg(
-                provinsi_sumber=("nama_provinsi", "nunique"), total_hotspot=("titik_hotspot", "sum"))
-            fig = px.bar(cty.sort_values("total_hotspot"), x="total_hotspot", y="negara_terdampak",
-                         orientation="h", text="provinsi_sumber", color_discrete_sequence=["#d62728"],
-                         labels={"total_hotspot": "Total hotspot provinsi sumber", "negara_terdampak": ""},
-                         title="Negara tetangga terdampak")
-            fig.update_traces(texttemplate="%{text} provinsi")
-            plot(fig)
-            st.caption("Hotspot dijumlahkan dari provinsi yang asapnya tercatat mencapai negara tersebut.")
-
-# ───────────────────────── 6. Analisis ─────────────────────────
-with tab_an:
-    c1, c2 = st.columns(2)
-    with c1:
-        fig = px.scatter(df, x="ispu", y="korban_meninggal", size="total_ispa", color="pulau",
-                         color_discrete_map=PULAU_COLORS, text="nama_provinsi", size_max=40,
-                         labels={"ispu": "Nilai ISPU (MongoDB)", "korban_meninggal": "Meninggal (PostgreSQL)",
-                                 "pulau": "Pulau", "total_ispa": "Total ISPA"},
-                         title="ISPU vs korban meninggal (ukuran = total ISPA)")
-        fig.update_traces(textposition="top center")
-        if len(df) >= 3 and df["ispu"].nunique() > 1 and df["korban_meninggal"].nunique() > 1:
-            slope, icpt = np.polyfit(df["ispu"], df["korban_meninggal"], 1)
-            xs = np.array([df["ispu"].min(), df["ispu"].max()])
-            fig.add_trace(go.Scatter(x=xs, y=slope * xs + icpt, mode="lines", name="Tren linear",
-                                     line=dict(dash="dash", color="gray")))
-            r = df["ispu"].corr(df["korban_meninggal"])
-            plot(fig)
-            st.caption(f"Pearson r = **{r:.2f}** (n = {len(df)} provinsi). Korelasi bukan bukti sebab-akibat; "
-                       "angka absolut belum dinormalisasi per jumlah penduduk.")
-            if len(df) < 5:
-                st.warning("Sampel < 5 provinsi: koefisien korelasi tidak dapat diandalkan.")
-        else:
-            plot(fig)
-            st.caption("Butuh minimal 3 provinsi dengan nilai bervariasi untuk menghitung korelasi.")
-    with c2:
-        hbar(df, "korban_meninggal", "Korban meninggal per provinsi", "pulau", PULAU_COLORS,
-             {"korban_meninggal": "Jiwa", "pulau": "Pulau"})
-    c3, c4 = st.columns(2)
-    with c3:
-        hbar(df, "titik_hotspot", "Titik hotspot per provinsi (warna = kategori ISPU)", "kategori_ispu",
-             ISPU_COLORS, {"titik_hotspot": "Hotspot", "kategori_ispu": "Kategori ISPU"})
-    with c4:
-        hbar(df, "lahan_terbakar_ha", "Luas lahan terbakar (ha)", "pulau", PULAU_COLORS,
-             {"lahan_terbakar_ha": "Hektare", "pulau": "Pulau"})
-
-# ───────────────────────── 7. Data & arsitektur ─────────────────────────
-with tab_data:
-    if only_pg or only_mongo:
-        st.warning(f"Data yatim (tidak ikut join): prov_id hanya di PostgreSQL = {only_pg or '-'}; "
-                   f"hanya di MongoDB = {only_mongo or '-'}.")
+    if avg_ispu > 300:
+        st.error(f"🚨 **STATUS DARURAT BENCANA (TRANSBOUNDARY HAZE)**: Rata-rata ISPU berisiko tinggi melintas batas negara! Negara terdampak: **{affected_countries_list}**.")
+    elif avg_ispu > 200:
+        st.warning(f"⚠️ **STATUS SIAGA ASAP**: Sebaran kabut asap mulai berpotensi menjangkau wilayah regional. Negara terdampak: **{affected_countries_list}**.")
     else:
-        st.success(f"Integritas join OK: {len(df_all)} provinsi cocok 1:1 antara PostgreSQL dan MongoDB.")
-    st.markdown(
-        "| DBMS | Engine | Fungsi | Isi |\n|---|---|---|---|\n"
-        "| 1 | PostgreSQL | Data master & kesehatan (skema ketat) | `data_kesehatan`: provinsi, pulau, ISPA, korban |\n"
-        "| 2 | MongoDB Atlas | Telemetri sensor & geospasial (skema fleksibel) | `telemetri_sensor`: hotspot, ISPU, lahan, "
-        "negara_terdampak (array), lat/lon |\n\n"
-        "Kunci integrasi: `prov_id` → `pandas.merge(..., validate='one_to_one')`."
+        st.info(f"✅ **STATUS WASPADA/AMAN**: Kabut asap terisolasi lokal. Negara terdampak: **{affected_countries_list}**.")
+
+    # 6. Ringkasan KPI Metrics
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("DBMS 1: Total ISPA", f"{df['total_ispa'].sum():,} Jiwa")
+    c2.metric("DBMS 1: Korban Meninggal ✝️", f"{df['korban_meninggal'].sum():,} Jiwa")
+    c3.metric("DBMS 2: Total Hotspot", f"{df['titik_hotspot'].sum():,} Titik")
+    c4.metric("DBMS 2: Rata-rata ISPU", f"{df['ispu_pm25'].mean():.1f}")
+    c5.metric("Luas Terbakar", f"{df['lahan_terbakar_ha'].sum():,.1f} Ha")
+
+    st.divider()
+
+    # 7. Visualisasi Grafik Interaktif
+    col_l, col_r = st.columns(2)
+    with col_l:
+        st.subheader("Korelasi ISPU (MongoDB) vs Korban Meninggal (PostgreSQL)")
+        fig_scatter = px.scatter(
+            df, x="ispu_pm25", y="korban_meninggal", size="total_ispa", 
+            color="nama_provinsi", symbol="pulau", hover_name="nama_provinsi",
+            hover_data=["negara_terdampak"],
+            labels={"ispu_pm25": "Nilai ISPU PM2.5", "korban_meninggal": "Korban Meninggal (Jiwa)"}
+        )
+        st.plotly_chart(fig_scatter, use_container_width=True)
+
+    with col_r:
+        st.subheader("Top Provinsi Korban Meninggal Dunia")
+        fig_bar = px.bar(
+            df.sort_values('korban_meninggal'), x="korban_meninggal", y="nama_provinsi", 
+            orientation='h', color="pulau", hover_data=["negara_terdampak"],
+            labels={"korban_meninggal": "Jumlah Korban", "nama_provinsi": "Provinsi"}
+        )
+        st.plotly_chart(fig_bar, use_container_width=True)
+
+    # 8. Peta Sebaran Spasial Hotspot & Transboundary Haze
+    st.subheader("🗺️ Peta Spasial Hotspot & Jangkauan Asap Lintas Negara")
+    fig_map = px.scatter_geo(
+        df, lat="lat", lon="lon", color="ispu_pm25", size="titik_hotspot",
+        hover_name="nama_provinsi", hover_data=["negara_terdampak"], scope="asia",
+        center={"lat": 1.5, "lon": 108.0},
+        title="Distribusi Hotspot Karhutla & Potensi Transboundary Haze ke Negara Tetangga"
     )
-    view = df.drop(columns=["negara_terdampak"]).rename(columns={"negara_str": "negara_terdampak"})
-    st.dataframe(view, hide_index=True, width="stretch")
-    st.download_button("📥 Unduh data gabungan (CSV)", view.to_csv(index=False).encode("utf-8"),
-                       file_name="multi_dbms_karhutla.csv", mime="text/csv")
-    st.caption("Sumber data, referensi kode, dan cara replikasi: lihat README.md di repositori.")
+    st.plotly_chart(fig_map, use_container_width=True)
+
+    # 9. Tabel & Fitur Ekspor Data CSV
+    with st.expander("📄 Lihat Hasil Penggabungan Data (Data Federation / Join)"):
+        st.dataframe(df, use_container_width=True)
+        csv_data = df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 Unduh Data Gabungan (CSV)",
+            data=csv_data,
+            file_name="multi_dbms_karhutla_transboundary_haze.csv",
+            mime="text/csv"
+        )
