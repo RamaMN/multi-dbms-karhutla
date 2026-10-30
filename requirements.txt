@@ -1,6 +1,7 @@
-streamlit
-pandas
+streamlit>=1.60
+pandas>=2.0
 numpy
-plotly
+plotly>=5.24
+SQLAlchemy>=2.0
 psycopg2-binary
-pymongo
+pymongo>=4.6

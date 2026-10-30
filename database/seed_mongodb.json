@@ -1,7 +1,108 @@
 [
-  {"prov_id": 1, "titik_hotspot": 185, "ispu_pm25": 280.5, "lahan_terbakar_ha": 3200.5},
-  {"prov_id": 2, "titik_hotspot": 290, "ispu_pm25": 340.2, "lahan_terbakar_ha": 4800.0},
-  {"prov_id": 3, "titik_hotspot": 210, "ispu_pm25": 295.0, "lahan_terbakar_ha": 3900.2},
-  {"prov_id": 4, "titik_hotspot": 95, "ispu_pm25": 160.8, "lahan_terbakar_ha": 1200.0},
-  {"prov_id": 5, "titik_hotspot": 12, "ispu_pm25": 85.0, "lahan_terbakar_ha": 50.0}
+  {
+    "prov_id": 1,
+    "titik_hotspot": 185,
+    "ispu": 280.5,
+    "lahan_terbakar_ha": 3200.5,
+    "negara_terdampak": [
+      "Indonesia",
+      "Singapura",
+      "Malaysia"
+    ],
+    "lat": 0.5104,
+    "lon": 101.4383
+  },
+  {
+    "prov_id": 2,
+    "titik_hotspot": 240,
+    "ispu": 310.0,
+    "lahan_terbakar_ha": 4100.2,
+    "negara_terdampak": [
+      "Indonesia",
+      "Singapura"
+    ],
+    "lat": -3.3199,
+    "lon": 104.9147
+  },
+  {
+    "prov_id": 3,
+    "titik_hotspot": 95,
+    "ispu": 160.8,
+    "lahan_terbakar_ha": 1200.0,
+    "negara_terdampak": [
+      "Indonesia"
+    ],
+    "lat": -1.6101,
+    "lon": 103.6131
+  },
+  {
+    "prov_id": 4,
+    "titik_hotspot": 290,
+    "ispu": 340.2,
+    "lahan_terbakar_ha": 4800.0,
+    "negara_terdampak": [
+      "Indonesia",
+      "Malaysia",
+      "Brunei Darussalam"
+    ],
+    "lat": -1.6815,
+    "lon": 113.3824
+  },
+  {
+    "prov_id": 5,
+    "titik_hotspot": 210,
+    "ispu": 295.0,
+    "lahan_terbakar_ha": 3900.2,
+    "negara_terdampak": [
+      "Indonesia",
+      "Malaysia"
+    ],
+    "lat": -0.0263,
+    "lon": 109.3425
+  },
+  {
+    "prov_id": 6,
+    "titik_hotspot": 145,
+    "ispu": 220.4,
+    "lahan_terbakar_ha": 2100.5,
+    "negara_terdampak": [
+      "Indonesia",
+      "Brunei Darussalam"
+    ],
+    "lat": 0.5387,
+    "lon": 116.4194
+  },
+  {
+    "prov_id": 7,
+    "titik_hotspot": 12,
+    "ispu": 85.0,
+    "lahan_terbakar_ha": 50.0,
+    "negara_terdampak": [
+      "Indonesia"
+    ],
+    "lat": -6.2088,
+    "lon": 106.8456
+  },
+  {
+    "prov_id": 8,
+    "titik_hotspot": 45,
+    "ispu": 120.5,
+    "lahan_terbakar_ha": 350.0,
+    "negara_terdampak": [
+      "Indonesia"
+    ],
+    "lat": -6.9175,
+    "lon": 107.6191
+  },
+  {
+    "prov_id": 9,
+    "titik_hotspot": 30,
+    "ispu": 105.0,
+    "lahan_terbakar_ha": 210.0,
+    "negara_terdampak": [
+      "Indonesia"
+    ],
+    "lat": -7.2504,
+    "lon": 112.7688
+  }
 ]
