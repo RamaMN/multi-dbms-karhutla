@@ -1,0 +1,343 @@
+kode_wilayah,provinsi,wilayah,tahun,luas_ha
+11,Aceh,Sumatera,2018,1284.7
+11,Aceh,Sumatera,2019,730.0
+11,Aceh,Sumatera,2020,1078.0
+11,Aceh,Sumatera,2021,1267.0
+11,Aceh,Sumatera,2022,3716.0
+11,Aceh,Sumatera,2023,1936.86
+11,Aceh,Sumatera,2024,7257.35
+11,Aceh,Sumatera,2025,355.01
+11,Aceh,Sumatera,2026,4070.48
+51,Bali,Bali & Nusa Tenggara,2018,1013.76
+51,Bali,Bali & Nusa Tenggara,2019,373.0
+51,Bali,Bali & Nusa Tenggara,2020,29.0
+51,Bali,Bali & Nusa Tenggara,2021,3.0
+51,Bali,Bali & Nusa Tenggara,2022,0.0
+51,Bali,Bali & Nusa Tenggara,2023,2011.27
+51,Bali,Bali & Nusa Tenggara,2024,316.36
+51,Bali,Bali & Nusa Tenggara,2025,93.08
+51,Bali,Bali & Nusa Tenggara,2026,108.28
+19,Bangka Belitung,Sumatera,2018,2055.67
+19,Bangka Belitung,Sumatera,2019,4778.0
+19,Bangka Belitung,Sumatera,2020,576.0
+19,Bangka Belitung,Sumatera,2021,385.0
+19,Bangka Belitung,Sumatera,2022,328.0
+19,Bangka Belitung,Sumatera,2023,4752.98
+19,Bangka Belitung,Sumatera,2024,2915.46
+19,Bangka Belitung,Sumatera,2025,214.71
+19,Bangka Belitung,Sumatera,2026,335.63
+36,Banten,Jawa,2018,0.0
+36,Banten,Jawa,2019,9.0
+36,Banten,Jawa,2020,2.0
+36,Banten,Jawa,2021,0.0
+36,Banten,Jawa,2022,0.0
+36,Banten,Jawa,2023,1.01
+36,Banten,Jawa,2024,362.83
+36,Banten,Jawa,2025,4.44
+36,Banten,Jawa,2026,8.28
+17,Bengkulu,Sumatera,2018,8.82
+17,Bengkulu,Sumatera,2019,11.0
+17,Bengkulu,Sumatera,2020,221.0
+17,Bengkulu,Sumatera,2021,93.0
+17,Bengkulu,Sumatera,2022,1620.0
+17,Bengkulu,Sumatera,2023,75.94
+17,Bengkulu,Sumatera,2024,355.05
+17,Bengkulu,Sumatera,2025,157.81
+17,Bengkulu,Sumatera,2026,125.15
+31,DKI Jakarta,Jawa,2018,0.0
+31,DKI Jakarta,Jawa,2019,0.0
+31,DKI Jakarta,Jawa,2020,0.0
+31,DKI Jakarta,Jawa,2021,0.0
+31,DKI Jakarta,Jawa,2022,0.0
+31,DKI Jakarta,Jawa,2023,0.0
+31,DKI Jakarta,Jawa,2024,0.51
+31,DKI Jakarta,Jawa,2025,0.0
+31,DKI Jakarta,Jawa,2026,0.0
+75,Gorontalo,Sulawesi,2018,158.65
+75,Gorontalo,Sulawesi,2019,1909.0
+75,Gorontalo,Sulawesi,2020,80.0
+75,Gorontalo,Sulawesi,2021,163.0
+75,Gorontalo,Sulawesi,2022,101.0
+75,Gorontalo,Sulawesi,2023,666.33
+75,Gorontalo,Sulawesi,2024,767.03
+75,Gorontalo,Sulawesi,2025,89.86
+75,Gorontalo,Sulawesi,2026,455.95
+15,Jambi,Sumatera,2018,1577.75
+15,Jambi,Sumatera,2019,56593.0
+15,Jambi,Sumatera,2020,1002.0
+15,Jambi,Sumatera,2021,540.0
+15,Jambi,Sumatera,2022,918.0
+15,Jambi,Sumatera,2023,6539.68
+15,Jambi,Sumatera,2024,5636.69
+15,Jambi,Sumatera,2025,46.79
+15,Jambi,Sumatera,2026,379.0
+32,Jawa Barat,Jawa,2018,4104.51
+32,Jawa Barat,Jawa,2019,9552.0
+32,Jawa Barat,Jawa,2020,2344.0
+32,Jawa Barat,Jawa,2021,1299.0
+32,Jawa Barat,Jawa,2022,2005.0
+32,Jawa Barat,Jawa,2023,11524.8
+32,Jawa Barat,Jawa,2024,4548.58
+32,Jawa Barat,Jawa,2025,0.65
+32,Jawa Barat,Jawa,2026,1892.97
+33,Jawa Tengah,Jawa,2018,331.67
+33,Jawa Tengah,Jawa,2019,4782.0
+33,Jawa Tengah,Jawa,2020,7516.0
+33,Jawa Tengah,Jawa,2021,599.0
+33,Jawa Tengah,Jawa,2022,107.0
+33,Jawa Tengah,Jawa,2023,9965.59
+33,Jawa Tengah,Jawa,2024,3726.78
+33,Jawa Tengah,Jawa,2025,1372.29
+33,Jawa Tengah,Jawa,2026,947.97
+35,Jawa Timur,Jawa,2018,8886.39
+35,Jawa Timur,Jawa,2019,23655.0
+35,Jawa Timur,Jawa,2020,19148.0
+35,Jawa Timur,Jawa,2021,15458.0
+35,Jawa Timur,Jawa,2022,2380.0
+35,Jawa Timur,Jawa,2023,49498.32
+35,Jawa Timur,Jawa,2024,20957.17
+35,Jawa Timur,Jawa,2025,233.97
+35,Jawa Timur,Jawa,2026,10835.28
+61,Kalimantan Barat,Kalimantan,2018,68422.03
+61,Kalimantan Barat,Kalimantan,2019,151919.0
+61,Kalimantan Barat,Kalimantan,2020,7646.0
+61,Kalimantan Barat,Kalimantan,2021,20590.0
+61,Kalimantan Barat,Kalimantan,2022,21836.0
+61,Kalimantan Barat,Kalimantan,2023,111848.43
+61,Kalimantan Barat,Kalimantan,2024,24154.63
+61,Kalimantan Barat,Kalimantan,2025,1209.06
+61,Kalimantan Barat,Kalimantan,2026,38310.86
+63,Kalimantan Selatan,Kalimantan,2018,98637.99
+63,Kalimantan Selatan,Kalimantan,2019,137848.0
+63,Kalimantan Selatan,Kalimantan,2020,4017.0
+63,Kalimantan Selatan,Kalimantan,2021,8625.0
+63,Kalimantan Selatan,Kalimantan,2022,429.0
+63,Kalimantan Selatan,Kalimantan,2023,190394.58
+63,Kalimantan Selatan,Kalimantan,2024,4993.88
+63,Kalimantan Selatan,Kalimantan,2025,24.35
+63,Kalimantan Selatan,Kalimantan,2026,8019.63
+62,Kalimantan Tengah,Kalimantan,2018,47432.57
+62,Kalimantan Tengah,Kalimantan,2019,317749.0
+62,Kalimantan Tengah,Kalimantan,2020,7681.0
+62,Kalimantan Tengah,Kalimantan,2021,3653.0
+62,Kalimantan Tengah,Kalimantan,2022,1554.0
+62,Kalimantan Tengah,Kalimantan,2023,165896.44
+62,Kalimantan Tengah,Kalimantan,2024,11459.89
+62,Kalimantan Tengah,Kalimantan,2025,149.06
+62,Kalimantan Tengah,Kalimantan,2026,7634.46
+64,Kalimantan Timur,Kalimantan,2018,27893.2
+64,Kalimantan Timur,Kalimantan,2019,68524.0
+64,Kalimantan Timur,Kalimantan,2020,5221.0
+64,Kalimantan Timur,Kalimantan,2021,3029.0
+64,Kalimantan Timur,Kalimantan,2022,373.0
+64,Kalimantan Timur,Kalimantan,2023,39494.41
+64,Kalimantan Timur,Kalimantan,2024,22570.5
+64,Kalimantan Timur,Kalimantan,2025,342.95
+64,Kalimantan Timur,Kalimantan,2026,2715.76
+65,Kalimantan Utara,Kalimantan,2018,627.71
+65,Kalimantan Utara,Kalimantan,2019,8559.0
+65,Kalimantan Utara,Kalimantan,2020,1721.0
+65,Kalimantan Utara,Kalimantan,2021,1678.0
+65,Kalimantan Utara,Kalimantan,2022,370.0
+65,Kalimantan Utara,Kalimantan,2023,796.36
+65,Kalimantan Utara,Kalimantan,2024,2429.21
+65,Kalimantan Utara,Kalimantan,2025,80.95
+65,Kalimantan Utara,Kalimantan,2026,400.62
+21,Kepulauan Riau,Sumatera,2018,320.96
+21,Kepulauan Riau,Sumatera,2019,6134.0
+21,Kepulauan Riau,Sumatera,2020,8805.0
+21,Kepulauan Riau,Sumatera,2021,1588.0
+21,Kepulauan Riau,Sumatera,2022,23.0
+21,Kepulauan Riau,Sumatera,2023,724.26
+21,Kepulauan Riau,Sumatera,2024,1498.66
+21,Kepulauan Riau,Sumatera,2025,141.65
+21,Kepulauan Riau,Sumatera,2026,5760.9
+18,Lampung,Sumatera,2018,15156.22
+18,Lampung,Sumatera,2019,35546.0
+18,Lampung,Sumatera,2020,1358.0
+18,Lampung,Sumatera,2021,5411.0
+18,Lampung,Sumatera,2022,7989.0
+18,Lampung,Sumatera,2023,6506.67
+18,Lampung,Sumatera,2024,13242.01
+18,Lampung,Sumatera,2025,514.73
+18,Lampung,Sumatera,2026,4890.26
+81,Maluku,Maluku,2018,14906.44
+81,Maluku,Maluku,2019,27211.0
+81,Maluku,Maluku,2020,20270.0
+81,Maluku,Maluku,2021,11807.0
+81,Maluku,Maluku,2022,14954.0
+81,Maluku,Maluku,2023,45999.39
+81,Maluku,Maluku,2024,13404.83
+81,Maluku,Maluku,2025,421.53
+81,Maluku,Maluku,2026,14677.0
+82,Maluku Utara,Maluku,2018,69.54
+82,Maluku Utara,Maluku,2019,2781.0
+82,Maluku Utara,Maluku,2020,59.0
+82,Maluku Utara,Maluku,2021,108.0
+82,Maluku Utara,Maluku,2022,171.0
+82,Maluku Utara,Maluku,2023,542.18
+82,Maluku Utara,Maluku,2024,102.57
+82,Maluku Utara,Maluku,2025,27.53
+82,Maluku Utara,Maluku,2026,589.64
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2018,14461.38
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2019,60234.0
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2020,29157.0
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2021,101173.0
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2022,30567.0
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2023,66716.43
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2024,46189.73
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2025,1867.35
+52,Nusa Tenggara Barat,Bali & Nusa Tenggara,2026,17406.46
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2018,57428.79
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2019,136920.0
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2020,114719.0
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2021,137343.0
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2022,70637.0
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2023,102536.89
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2024,113089.51
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2025,1493.02
+53,Nusa Tenggara Timur,Bali & Nusa Tenggara,2026,19565.16
+91,Papua,Papua,2018,88626.84
+91,Papua,Papua,2019,108110.0
+91,Papua,Papua,2020,28277.0
+91,Papua,Papua,2021,15979.0
+91,Papua,Papua,2022,8336.0
+91,Papua,Papua,2023,604.01
+91,Papua,Papua,2024,544.19
+91,Papua,Papua,2025,63.33
+91,Papua,Papua,2026,544.61
+92,Papua Barat,Papua,2018,509.5
+92,Papua Barat,Papua,2019,1533.0
+92,Papua Barat,Papua,2020,5716.0
+92,Papua Barat,Papua,2021,77.0
+92,Papua Barat,Papua,2022,1738.0
+92,Papua Barat,Papua,2023,259.03
+92,Papua Barat,Papua,2024,198.85
+92,Papua Barat,Papua,2025,203.38
+92,Papua Barat,Papua,2026,2496.39
+96,Papua Barat Daya,Papua,2018,0.0
+96,Papua Barat Daya,Papua,2019,0.0
+96,Papua Barat Daya,Papua,2020,0.0
+96,Papua Barat Daya,Papua,2021,0.0
+96,Papua Barat Daya,Papua,2022,0.0
+96,Papua Barat Daya,Papua,2023,504.24
+96,Papua Barat Daya,Papua,2024,28.42
+96,Papua Barat Daya,Papua,2025,189.12
+96,Papua Barat Daya,Papua,2026,716.7
+95,Papua Pegunungan,Papua,2018,0.0
+95,Papua Pegunungan,Papua,2019,0.0
+95,Papua Pegunungan,Papua,2020,0.0
+95,Papua Pegunungan,Papua,2021,0.0
+95,Papua Pegunungan,Papua,2022,0.0
+95,Papua Pegunungan,Papua,2023,787.11
+95,Papua Pegunungan,Papua,2024,461.56
+95,Papua Pegunungan,Papua,2025,73.42
+95,Papua Pegunungan,Papua,2026,1681.43
+93,Papua Selatan,Papua,2018,0.0
+93,Papua Selatan,Papua,2019,0.0
+93,Papua Selatan,Papua,2020,0.0
+93,Papua Selatan,Papua,2021,0.0
+93,Papua Selatan,Papua,2022,0.0
+93,Papua Selatan,Papua,2023,150813.34
+93,Papua Selatan,Papua,2024,27182.19
+93,Papua Selatan,Papua,2025,32.0
+93,Papua Selatan,Papua,2026,25838.53
+94,Papua Tengah,Papua,2018,0.0
+94,Papua Tengah,Papua,2019,0.0
+94,Papua Tengah,Papua,2020,0.0
+94,Papua Tengah,Papua,2021,0.0
+94,Papua Tengah,Papua,2022,0.0
+94,Papua Tengah,Papua,2023,2593.91
+94,Papua Tengah,Papua,2024,104.02
+94,Papua Tengah,Papua,2025,89.01
+94,Papua Tengah,Papua,2026,2519.88
+14,Riau,Sumatera,2018,37236.27
+14,Riau,Sumatera,2019,90550.0
+14,Riau,Sumatera,2020,15442.0
+14,Riau,Sumatera,2021,8970.0
+14,Riau,Sumatera,2022,4915.0
+14,Riau,Sumatera,2023,7267.03
+14,Riau,Sumatera,2024,11027.96
+14,Riau,Sumatera,2025,751.08
+14,Riau,Sumatera,2026,15738.92
+76,Sulawesi Barat,Sulawesi,2018,978.38
+76,Sulawesi Barat,Sulawesi,2019,3029.0
+76,Sulawesi Barat,Sulawesi,2020,569.0
+76,Sulawesi Barat,Sulawesi,2021,886.0
+76,Sulawesi Barat,Sulawesi,2022,488.0
+76,Sulawesi Barat,Sulawesi,2023,2132.31
+76,Sulawesi Barat,Sulawesi,2024,994.74
+76,Sulawesi Barat,Sulawesi,2025,172.29
+76,Sulawesi Barat,Sulawesi,2026,865.6
+73,Sulawesi Selatan,Sulawesi,2018,1741.27
+73,Sulawesi Selatan,Sulawesi,2019,15697.0
+73,Sulawesi Selatan,Sulawesi,2020,1902.0
+73,Sulawesi Selatan,Sulawesi,2021,916.0
+73,Sulawesi Selatan,Sulawesi,2022,997.0
+73,Sulawesi Selatan,Sulawesi,2023,6489.26
+73,Sulawesi Selatan,Sulawesi,2024,3522.91
+73,Sulawesi Selatan,Sulawesi,2025,474.91
+73,Sulawesi Selatan,Sulawesi,2026,1489.5
+72,Sulawesi Tengah,Sulawesi,2018,4147.28
+72,Sulawesi Tengah,Sulawesi,2019,11551.0
+72,Sulawesi Tengah,Sulawesi,2020,2555.0
+72,Sulawesi Tengah,Sulawesi,2021,3133.0
+72,Sulawesi Tengah,Sulawesi,2022,3704.0
+72,Sulawesi Tengah,Sulawesi,2023,10844.28
+72,Sulawesi Tengah,Sulawesi,2024,4920.7
+72,Sulawesi Tengah,Sulawesi,2025,312.15
+72,Sulawesi Tengah,Sulawesi,2026,3138.1
+74,Sulawesi Tenggara,Sulawesi,2018,8594.67
+74,Sulawesi Tenggara,Sulawesi,2019,16929.0
+74,Sulawesi Tenggara,Sulawesi,2020,3206.0
+74,Sulawesi Tenggara,Sulawesi,2021,2124.0
+74,Sulawesi Tenggara,Sulawesi,2022,3098.0
+74,Sulawesi Tenggara,Sulawesi,2023,18736.47
+74,Sulawesi Tenggara,Sulawesi,2024,1629.74
+74,Sulawesi Tenggara,Sulawesi,2025,100.01
+74,Sulawesi Tenggara,Sulawesi,2026,2735.48
+71,Sulawesi Utara,Sulawesi,2018,326.39
+71,Sulawesi Utara,Sulawesi,2019,4574.0
+71,Sulawesi Utara,Sulawesi,2020,177.0
+71,Sulawesi Utara,Sulawesi,2021,579.0
+71,Sulawesi Utara,Sulawesi,2022,469.0
+71,Sulawesi Utara,Sulawesi,2023,2531.44
+71,Sulawesi Utara,Sulawesi,2024,651.68
+71,Sulawesi Utara,Sulawesi,2025,6.51
+71,Sulawesi Utara,Sulawesi,2026,368.78
+13,Sumatera Barat,Sumatera,2018,2421.9
+13,Sumatera Barat,Sumatera,2019,2133.0
+13,Sumatera Barat,Sumatera,2020,1573.0
+13,Sumatera Barat,Sumatera,2021,2068.0
+13,Sumatera Barat,Sumatera,2022,9832.0
+13,Sumatera Barat,Sumatera,2023,4885.13
+13,Sumatera Barat,Sumatera,2024,3052.2
+13,Sumatera Barat,Sumatera,2025,514.48
+13,Sumatera Barat,Sumatera,2026,1491.07
+16,Sumatera Selatan,Sumatera,2018,16226.6
+16,Sumatera Selatan,Sumatera,2019,336798.0
+16,Sumatera Selatan,Sumatera,2020,950.0
+16,Sumatera Selatan,Sumatera,2021,5245.0
+16,Sumatera Selatan,Sumatera,2022,3723.0
+16,Sumatera Selatan,Sumatera,2023,132082.86
+16,Sumatera Selatan,Sumatera,2024,15422.48
+16,Sumatera Selatan,Sumatera,2025,43.08
+16,Sumatera Selatan,Sumatera,2026,1926.23
+12,Sumatera Utara,Sumatera,2018,3678.79
+12,Sumatera Utara,Sumatera,2019,2514.0
+12,Sumatera Utara,Sumatera,2020,3744.0
+12,Sumatera Utara,Sumatera,2021,4078.0
+12,Sumatera Utara,Sumatera,2022,7516.0
+12,Sumatera Utara,Sumatera,2023,2113.75
+12,Sumatera Utara,Sumatera,2024,7032.27
+12,Sumatera Utara,Sumatera,2025,361.16
+12,Sumatera Utara,Sumatera,2026,1330.0
+34,Yogyakarta,Jawa,2018,0.0
+34,Yogyakarta,Jawa,2019,23.0
+34,Yogyakarta,Jawa,2020,181.0
+34,Yogyakarta,Jawa,2021,0.0
+34,Yogyakarta,Jawa,2022,0.0
+34,Yogyakarta,Jawa,2023,119.91
+34,Yogyakarta,Jawa,2024,51.91
+34,Yogyakarta,Jawa,2025,0.0
+34,Yogyakarta,Jawa,2026,0.0

@@ -1,0 +1,1277 @@
+kode_wilayah,provinsi,provinsi_asal,kab_kota,kecamatan,desa,waktu,satelit,confidence,latitude,longitude
+11,Aceh,Aceh,KOTA LHOKSEUMAWE,Muara Satu,Meuria Paloh,2026-11-11T14:35:00+07:00,NASA-NOAA20,Medium,5.22107,97.07352
+11,Aceh,Aceh,KOTA LHOKSEUMAWE,Muara Satu,Meuria Paloh,2026-11-11T14:35:00+07:00,NASA-NOAA20,Medium,5.22154,97.07688
+36,Banten,Banten,KOTA CILEGON,Citangkil,Warnasari,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-5.9942,105.99484
+36,Banten,Banten,KOTA CILEGON,Ciwandan,Kubangsari,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.00967,105.97547
+36,Banten,Banten,KOTA CILEGON,Citangkil,Warnasari,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-5.9922,105.99712
+36,Banten,Banten,KOTA CILEGON,Ciwandan,Kubangsari,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-6.01198,105.98307
+36,Banten,Banten,KOTA CILEGON,Ciwandan,Kubangsari,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-6.01077,105.97611
+36,Banten,Banten,SERANG,Cikande,Bakung,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.18439,106.35553
+36,Banten,Banten,SERANG,Cikande,Bakung,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.18307,106.35272
+36,Banten,Banten,TANGERANG,Kosambi,Rawa Burung,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.09287,106.66264
+36,Banten,Banten,TANGERANG,Pasar Kemis,Pangadegan,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.14597,106.55097
+36,Banten,Banten,TANGERANG,Gunung Kaler,Gunung Kaler,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-6.07973,106.34473
+75,Gorontalo,Gorontalo,BOALEMO,Tilamuta,Piloliyanga,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.57147,122.33646
+64,Kalimantan Timur,IKN,KUTAI KARTANEGARA,Loa Janan,Loa Duri Ulu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.75386,116.97804
+64,Kalimantan Timur,IKN,KUTAI KARTANEGARA,Samboja,Kelurahan Karya Merdeka,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.05198,116.90315
+15,Jambi,Jambi,BATANGHARI,Batin XXIV,Karmeo,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-1.74463,103.02606
+15,Jambi,Jambi,MERANGIN,Margo Tabir,Sumber Agung,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-1.87343,102.39439
+15,Jambi,Jambi,TANJUNG JABUNG BARAT,Batang Asam,Suban,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.04246,102.88932
+32,Jawa Barat,Jawa Barat,BOGOR,Citeureup,Citeureup,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-6.47868,106.90022
+32,Jawa Barat,Jawa Barat,CIAMIS,Cisaga,Wangunjaya,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-7.32731,108.52101
+32,Jawa Barat,Jawa Barat,INDRAMAYU,Balongan,Rawadalem,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.37122,108.3577
+32,Jawa Barat,Jawa Barat,INDRAMAYU,Sliyeg,Tambi,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.48495,108.34482
+32,Jawa Barat,Jawa Barat,INDRAMAYU,Sukra,Karanglayung,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.29715,107.95631
+32,Jawa Barat,Jawa Barat,INDRAMAYU,Trisi,Jatimunggul,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.54912,108.0932
+32,Jawa Barat,Jawa Barat,INDRAMAYU,Trisi,Jatimunggul,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.54647,108.09206
+32,Jawa Barat,Jawa Barat,INDRAMAYU,Sukra,Karanglayung,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-6.29641,107.958
+32,Jawa Barat,Jawa Barat,INDRAMAYU,Trisi,Jatimunggul,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-6.54618,108.09254
+35,Jawa Timur,Jawa Timur,BOJONEGORO,Ngasem,Bandungrejo,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-7.23911,111.7354
+35,Jawa Timur,Jawa Timur,BONDOWOSO,Sumberwringin,Rejo Agung,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.03494,114.05234
+35,Jawa Timur,Jawa Timur,KOTA SURABAYA,Tandes,Karang Poh,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-7.2702,112.68388
+35,Jawa Timur,Jawa Timur,KOTA SURABAYA,Tandes,Karang Poh,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-7.26959,112.68002
+35,Jawa Timur,Jawa Timur,LUMAJANG,Pronojiwo,Oro-oro Ombo,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.11775,112.93134
+35,Jawa Timur,Jawa Timur,MALANG,Ampelgading,Tamansari,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.11332,112.92546
+35,Jawa Timur,Jawa Timur,MALANG,Ampelgading,Tamansari,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.11275,112.92189
+35,Jawa Timur,Jawa Timur,PROBOLINGGO,Sukapura,Ngadisari,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-7.942,112.95391
+35,Jawa Timur,Jawa Timur,SIDOARJO,Krembung,Balonggarut,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-7.49722,112.64053
+35,Jawa Timur,Jawa Timur,SIDOARJO,Tulangan,Kenongo,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-7.49374,112.64109
+35,Jawa Timur,Jawa Timur,TUBAN,Kerek,Sumberarum,2026-11-12T01:38:00+07:00,NASA-NOAA20,Medium,-6.86686,111.90945
+63,Kalimantan Selatan,Kalimantan Selatan,BALANGAN,Paringin,Lok Batung,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-2.21292,115.50215
+63,Kalimantan Selatan,Kalimantan Selatan,BALANGAN,Juai,Buntu Karau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.20434,115.54194
+63,Kalimantan Selatan,Kalimantan Selatan,BALANGAN,Paringin,Dahai,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.22324,115.48944
+63,Kalimantan Selatan,Kalimantan Selatan,BALANGAN,Paringin,Lok Batung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.22378,115.4929
+63,Kalimantan Selatan,Kalimantan Selatan,BALANGAN,Paringin,Lok Batung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.22047,115.4934
+63,Kalimantan Selatan,Kalimantan Selatan,BALANGAN,Paringin,Lok Batung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.21107,115.49839
+63,Kalimantan Selatan,Kalimantan Selatan,BALANGAN,Paringin,Lok Batung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.21053,115.49492
+63,Kalimantan Selatan,Kalimantan Selatan,HULU SUNGAI SELATAN,Padang Batung,Kaliring,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.7983,115.31388
+63,Kalimantan Selatan,Kalimantan Selatan,KOTABARU,Pamukan Utara,Binturung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.40074,116.38673
+63,Kalimantan Selatan,Kalimantan Selatan,KOTABARU,Sungai Durian,Rantau Budha,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.53376,116.08148
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Murung Pudak,Maburai,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.20878,115.49798
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Murung Pudak,Maburai,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.20661,115.49911
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Tanjung,Kelurahan Jangkung,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.15094,115.34616
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Tanjung,Kelurahan Jangkung,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.15305,115.35004
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Tanjung,Kelurahan Jangkung,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.14917,115.34865
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Tanjung,Kelurahan Jangkung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.15112,115.35477
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Tanjung,Kelurahan Jangkung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.15057,115.3513
+63,Kalimantan Selatan,Kalimantan Selatan,TABALONG,Upau,Kaong,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.06237,115.57172
+63,Kalimantan Selatan,Kalimantan Selatan,TANAH BUMBU,Sungai Loban,Sebamban Lama,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.57844,115.66801
+63,Kalimantan Selatan,Kalimantan Selatan,TANAH LAUT,Pelaihari,Sumber Mulia,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-3.89233,114.79436
+63,Kalimantan Selatan,Kalimantan Selatan,TANAH LAUT,Kintap,Kintap Kecil,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.84341,115.25223
+63,Kalimantan Selatan,Kalimantan Selatan,TANAH LAUT,Kintap,Kintap Kecil,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.84119,115.25964
+63,Kalimantan Selatan,Kalimantan Selatan,TANAH LAUT,Panyipatan,Batakan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.12037,114.7196
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Lokpaikat,Binderang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.94278,115.23806
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Lokpaikat,Binderang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.94223,115.23458
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Lokpaikat,Budi Mulya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.92287,115.24113
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Lokpaikat,Budi Mulya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.91955,115.24165
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Lokpaikat,Budi Mulya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.91624,115.24216
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Lokpaikat,Lokpaikat,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.93946,115.23857
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Lokpaikat,Lokpaikat,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.92951,115.24011
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Tapin Selatan,Hatiwin,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.03869,115.15487
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Tapin Selatan,Rumintin,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.03537,115.15539
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Tapin Selatan,Rumintin,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.0326,115.15939
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Tapin Selatan,Rumintin,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.03205,115.15591
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Tapin Selatan,Tatakan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.08736,115.11868
+63,Kalimantan Selatan,Kalimantan Selatan,TAPIN,Tapin Selatan,Tatakan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.08469,115.12276
+62,Kalimantan Tengah,Kalimantan Tengah,BARITO SELATAN,Dusun Hilir,Mahajandau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.23101,114.7355
+62,Kalimantan Tengah,Kalimantan Tengah,KAPUAS,Mantangai,Tumbang Muroi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.02792,114.48901
+62,Kalimantan Tengah,Kalimantan Tengah,KAPUAS,Mantangai,Tumbang Muroi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.0251,114.49319
+62,Kalimantan Tengah,Kalimantan Tengah,SERUYAN,Seruyan Hilir,Sungai Perlu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.46829,111.9805
+62,Kalimantan Tengah,Kalimantan Tengah,SERUYAN,Seruyan Hilir,Sungai Perlu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.46521,111.98927
+62,Kalimantan Tengah,Kalimantan Tengah,SERUYAN,Seruyan Hilir,Sungai Perlu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.46452,111.98109
+64,Kalimantan Timur,Kalimantan Timur,KOTA BALIKPAPAN,Balikpapan Tengah,Kelurahan Karang Jati,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.23963,116.81805
+64,Kalimantan Timur,Kalimantan Timur,KOTA BONTANG,Bontang Selatan,Kelurahan Satimpo,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.10282,117.47253
+64,Kalimantan Timur,Kalimantan Timur,KOTA BONTANG,Bontang Selatan,Kelurahan Satimpo,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.09853,117.47748
+64,Kalimantan Timur,Kalimantan Timur,KOTA BONTANG,Bontang Selatan,Kelurahan Satimpo,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.09687,117.47778
+64,Kalimantan Timur,Kalimantan Timur,KOTA SAMARINDA,Samarinda Utara,Kelurahan Sungai Siring,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.48977,117.24474
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Muara Pahu,Dasaq,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-0.39129,115.93858
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Bentian Besar,Jelmu Sibak,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.94694,115.72861
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Bentian Besar,Jelmu Sibak,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.94363,115.72911
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Damai,Sempatn,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.41946,115.70794
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Damai,Sempatn,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.41614,115.70844
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Jempang,Muara Tae,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.5996,116.03384
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Muara Pahu,Dasaq,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.39175,115.94291
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Muara Pahu,Dasaq,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.39121,115.93947
+64,Kalimantan Timur,Kalimantan Timur,KUTAI BARAT,Muara Pahu,Tanjung Laong,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.34882,115.97437
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,0.00984,116.35435
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Teluk Bingkai,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,0.02527,116.33738
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Loa Janan,Batuah,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,-0.72994,117.04206
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Muntai,Rebaq Rinding,2026-11-12T07:37:00+07:00,NASA-MODIS,Low,-0.33884,116.35168
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,0.00115,116.34776
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Semayang,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-0.19411,116.4915
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Teluk Bingkai,2026-11-12T02:38:00+07:00,NASA-MODIS,Medium,0.02815,116.32566
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Teluk Bingkai,2026-11-12T02:38:00+07:00,NASA-MODIS,Medium,0.0282,116.31843
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Muhuran,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-0.1956,116.50195
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-0.05016,116.26891
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Anggana,Handil Terusan,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.58246,117.38364
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Anggana,Handil Terusan,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.58139,117.38219
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.0197,116.32264
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.02016,116.32286
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.02055,116.31723
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.02106,116.31747
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.02141,116.3118
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.02195,116.31204
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Semayang,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.19148,116.48865
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Semayang,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.19383,116.4911
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Semayang,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.19248,116.48908
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Sebelimbingan,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.18466,116.48983
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Sebelimbingan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.19336,116.49468
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Sebelimbingan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.18726,116.49214
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Loa Janan,Batuah,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.73257,117.0379
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Loa Janan,Batuah,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.73118,117.03733
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Loa Janan,Batuah,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.73528,117.03519
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Loa Janan,Batuah,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.72945,117.03394
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Loa Janan,Batuah,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.72843,117.03607
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Badak,Salo Cella,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.23949,117.32556
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Badak,Salo Cella,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.20409,117.35377
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Badak,Salo Cella,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.23828,117.32944
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Muntai,Rebaq Rinding,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,-0.33728,116.35108
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Sanga Sanga,Kelurahan Jawa,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-0.68749,117.25331
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Tabang,Gunung Sari,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.49607,116.17093
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kembang Janggut,Kembang Janggut,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.26651,116.37022
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kembang Janggut,Kembang Janggut,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.26981,116.37073
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kembang Janggut,Long Beleh Modang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.3855,116.21964
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kembang Janggut,Long Beleh Modang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.43567,116.245
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kembang Janggut,Long Beleh Modang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.43621,116.24155
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.00048,116.33893
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,5e-05,116.33549
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00059,116.33207
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00112,116.32864
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00121,116.34972
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00175,116.34629
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00389,116.33257
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00442,116.32915
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00505,116.34681
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00665,116.33651
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00719,116.33308
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00772,116.32965
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00995,116.33701
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01048,116.33359
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01102,116.33015
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01155,116.32673
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01209,116.3233
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01325,116.33753
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01432,116.33067
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01485,116.32723
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01539,116.32381
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01762,116.33117
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01869,116.32431
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01985,116.33855
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Kahala,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.02038,116.33511
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.00879,116.32279
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Lamin Pulut,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01922,116.32088
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Semayang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.19153,116.49162
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kenohan,Teluk Bingkai,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.02252,116.32139
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Muhuran,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.19536,116.49453
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Sebelimbingan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.1926,116.49847
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Sebelimbingan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.19206,116.49504
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Kota Bangun,Sebelimbingan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.18877,116.49554
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Loa Janan,Batuah,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.73329,117.04095
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Marang Kayu,Santan Ilir,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01162,117.47872
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Marang Kayu,Santan Ilir,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01547,117.47577
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Marang Kayu,Santan Tengah,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01216,117.47527
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Marang Kayu,Santan Tengah,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01307,117.42587
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Marang Kayu,Santan Tengah,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.01361,117.42242
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Badak,Salo Cella,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.20741,117.35594
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Badak,Sungai Bawang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.33228,117.2626
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Badak,Tanah Datar,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.33281,117.26604
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Jawa,Kelurahan Muara Kembang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.6951,117.25549
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Jawa,Kelurahan Muara Kembang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.69179,117.256
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Kaman,Kupang Baru,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.12679,116.63255
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Kaman,Menamang Kanan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.24046,116.99692
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Muntai,Jantur Baru,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.40322,116.27942
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Muntai,Rebaq Rinding,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.34363,116.35175
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Muntai,Rebaq Rinding,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.34033,116.35226
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Muntai,Tanjung Batuq Harapan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.34309,116.34833
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Muntai,Tanjung Batuq Harapan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.33979,116.34883
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.14145,116.23615
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.13815,116.23666
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.13761,116.23322
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.13431,116.23373
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.13378,116.2303
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.13048,116.2308
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Muara Wis,Enggelam,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-0.05093,116.26775
+64,Kalimantan Timur,Kalimantan Timur,KUTAI KARTANEGARA,Tabang,Gunung Sari,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.49259,116.16576
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,0.23592,116.61723
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,0.24158,116.61002
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.67859,117.56481
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.67946,117.5601
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.67966,117.55821
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.68652,117.55953
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.68742,117.55486
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.68757,117.55303
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.68849,117.5485
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Tepian Langsat,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.68995,117.46571
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Karangan,Pengadan,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,1.06271,117.67327
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Karangan,Pengadan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,1.05955,117.65852
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Karangan,Pengadan,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,1.06617,117.66166
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.24114,116.61318
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.29391,116.58999
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.2387,116.61622
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.29514,116.59203
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.2966,116.59106
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Kandolo,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.28171,117.43623
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Kandolo,2026-11-12T01:34:00+07:00,NASA-NOAA20,Medium,0.29513,117.44361
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Batu Ampar,Batu Timbau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.66168,116.73717
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sekerat,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.76442,117.75912
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sekerat,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.76497,117.75565
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.66679,117.46735
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.67286,117.47182
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.6758,117.56474
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.68295,117.56232
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.68764,117.46775
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.69064,117.55645
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Sepaso Selatan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.69173,117.54955
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Tepian Langsat,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.6568,117.44461
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Tepian Langsat,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.6898,117.45397
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Bengalon,Tepian Langsat,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.70523,117.46341
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Karangan,Pengadan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,1.06112,117.66714
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Karangan,Pengadan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,1.06281,117.67802
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Karangan,Pengadan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,1.06835,117.68596
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Karangan,Pengadan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,1.08373,117.67419
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.18845,116.61069
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.18898,116.60727
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.23457,116.61777
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.2351,116.61436
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.23786,116.61828
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.2384,116.61487
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.24062,116.62222
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.24116,116.61879
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.28979,116.59486
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.29032,116.59144
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.29309,116.59536
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.29362,116.59194
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Muara Ancalong,Senyiur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.29691,116.59245
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Sangatta Utara,Swarga Bara,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.56972,117.45598
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Sangatta Utara,Swarga Bara,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.57604,117.48506
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Telen,Juk Ayaq,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.88839,117.14049
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Kandolo,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.27682,117.43839
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Kandolo,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.28012,117.4389
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Kandolo,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.28841,117.45083
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Kandolo,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.28895,117.44737
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Teluk Pandan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.24097,117.40453
+64,Kalimantan Timur,Kalimantan Timur,KUTAI TIMUR,Teluk Pandan,Teluk Pandan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.24982,117.41292
+64,Kalimantan Timur,Kalimantan Timur,MAHAKAM ULU,Laham,Danum Paroy,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.22267,115.3018
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T07:37:00+07:00,NASA-MODIS,High,-1.89603,115.86534
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-1.94812,115.86277
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.89643,115.85849
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.89599,115.85702
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.89561,115.85293
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.88998,115.8596
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.88954,115.85812
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.88917,115.85413
+64,Kalimantan Timur,Kalimantan Timur,PASER,Long Ikis,Long Gelang,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.52063,116.09261
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.94247,115.85651
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.94167,115.85121
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Engau,Kerang Dayo,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.24648,115.9828
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.92633,115.8961
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.91482,115.88731
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.89784,115.86531
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.8973,115.86188
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.89676,115.85844
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.89388,115.86603
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.89335,115.86259
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.89058,115.86654
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.89005,115.8631
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.88951,115.85966
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.88621,115.86017
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.8846,115.84986
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.8813,115.85038
+64,Kalimantan Timur,Kalimantan Timur,PASER,Batu Sopang,Samuranggau,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.85543,115.85789
+64,Kalimantan Timur,Kalimantan Timur,PASER,Long Ikis,Long Gelang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.52532,116.09607
+64,Kalimantan Timur,Kalimantan Timur,PASER,Long Ikis,Long Gelang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.52479,116.09264
+64,Kalimantan Timur,Kalimantan Timur,PASER,Long Ikis,Long Gelang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.52256,116.09999
+64,Kalimantan Timur,Kalimantan Timur,PASER,Long Ikis,Long Gelang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.52203,116.09658
+64,Kalimantan Timur,Kalimantan Timur,PASER,Long Ikis,Long Gelang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.52149,116.09315
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Biu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.97697,115.87423
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Biu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.9759,115.86736
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Libur Dinding,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.09739,115.92587
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.9726,115.86786
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.94789,115.86113
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.94735,115.8577
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.94405,115.85821
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.94351,115.85477
+64,Kalimantan Timur,Kalimantan Timur,PASER,Muara Samu,Rantau Bintungan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.93326,115.96181
+64,Kalimantan Timur,Kalimantan Timur,PASER,Paser Belengkong,Laburan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.95391,116.35839
+64,Kalimantan Timur,Kalimantan Timur,PASER,Paser Belengkong,Sunge Batu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.95934,116.37156
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA,Mendo Barat,Labuh Air Pandan,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.18661,105.86058
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA,Puding Besar,Labu,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.03807,105.89838
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA,Riau Silip,Mapur,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.61538,106.0194
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA,Riau Silip,Mapur,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.61193,106.01994
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA SELATAN,Air Gegas,Bencah,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.75593,106.4304
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA SELATAN,Air Gegas,Tepus,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.69065,106.526
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA SELATAN,Air Gegas,Bencah,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.79697,106.46784
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA SELATAN,Air Gegas,Tepus,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.68572,106.5214
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA SELATAN,Air Gegas,Tepus,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.68298,106.52322
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA SELATAN,Air Gegas,Tepus,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.68244,106.52319
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA SELATAN,Toboali,Serdang,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-2.83983,106.44587
+19,Bangka Belitung,Kepulauan Bangka Belitung,BANGKA TENGAH,Lubuk Besar,Lubuk Pabrik,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.69006,106.59724
+19,Bangka Belitung,Kepulauan Bangka Belitung,BELITUNG,Membalong,Bantan,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.92582,107.7207
+19,Bangka Belitung,Kepulauan Bangka Belitung,BELITUNG,Membalong,Bantan,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.92279,107.71909
+19,Bangka Belitung,Kepulauan Bangka Belitung,BELITUNG,Membalong,Bantan,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.92586,107.71984
+18,Lampung,Lampung,LAMPUNG SELATAN,Raja Basa,Tejang Pulau Sebesi,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-6.10368,105.42093
+18,Lampung,Lampung,LAMPUNG UTARA,Bunga Mayang,Sukadana Udik,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-4.64795,104.88805
+18,Lampung,Lampung,MESUJI,Mesuji,Wiralaga II,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.97407,105.45812
+18,Lampung,Lampung,MESUJI,Rawa Jitu Utara,Sidang Makmur,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-4.09176,105.67482
+18,Lampung,Lampung,MESUJI,Rawa Jitu Utara,Sungai Sidang,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-4.11949,105.58903
+18,Lampung,Lampung,MESUJI,Rawa Jitu Utara,Sungai Sidang,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-4.11891,105.5852
+18,Lampung,Lampung,TULANG BAWANG,Dente Teladas,Teladas,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-4.39701,105.74945
+18,Lampung,Lampung,TULANG BAWANG,Dente Teladas,Teladas,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-4.3929,105.74609
+18,Lampung,Lampung,TULANG BAWANG,Gedung Meneng,Gedung Meneng,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-4.39641,105.74555
+18,Lampung,Lampung,TULANG BAWANG,Menggala Timur,Kibang Pacing,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-4.34052,105.36152
+18,Lampung,Lampung,TULANG BAWANG,Dente Teladas,Teladas,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-4.39365,105.74987
+18,Lampung,Lampung,TULANG BAWANG,Dente Teladas,Teladas,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-4.39299,105.74606
+18,Lampung,Lampung,WAY KANAN,Rebang Tangkas,Simpang Tiga,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-4.5665,104.39194
+81,Maluku,Maluku,BURU,Lolong Guba,Nafrua,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-3.52418,126.70255
+81,Maluku,Maluku,BURU,Lolong Guba,Nafrua,2026-11-11T19:16:00+07:00,NASA-MODIS,Low,-3.53176,126.70018
+81,Maluku,Maluku,BURU,Lolong Guba,Nafrua,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-3.53036,126.70998
+81,Maluku,Maluku,BURU,Lolong Guba,Nafrua,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-3.52282,126.71244
+81,Maluku,Maluku,BURU,Fena Leisela,Raheriat,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.13066,126.71384
+81,Maluku,Maluku,BURU,Lolong Guba,Nafrua,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.52239,126.70741
+81,Maluku,Maluku,KEPULAUAN ARU,Aru Selatan Timur,Gomar Sungai,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-6.56005,134.46266
+81,Maluku,Maluku,KEPULAUAN ARU,Aru Selatan Timur,Gomar Sungai,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-6.55929,134.46126
+81,Maluku,Maluku,KEPULAUAN ARU,Aru Utara,Warialau,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-5.36848,134.55484
+81,Maluku,Maluku,KEPULAUAN ARU,Aru Utara,Warialau,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-5.36412,134.55547
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Selaru,Adaut,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.10746,131.02
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Tanimbar Utara,Lelingluan,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.19763,131.67773
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Tanimbar Utara,Lelingluan,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.19391,131.67833
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wer Tamrian,Tumbur,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.82595,131.2641
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wuar Labobar,Awear Rumngeur,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.28409,131.50905
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wuar Labobar,Karatat,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.31267,131.57239
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wuar Labobar,Watmasa,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.17985,131.53568
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wuar Labobar,Watmasa,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.17918,131.5313
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wuar Labobar,Watmasa,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.17114,131.52805
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wuar Labobar,Watmasa,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.17039,131.57303
+81,Maluku,Maluku,KEPULAUAN TANIMBAR,Wuar Labobar,Watmasa,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.16745,131.52863
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Bula Barat,Banggoi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.00682,130.25729
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Pulau Gorom,Amarsekaru,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.12198,131.31302
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Siritaun Wida Timur,Kian Laut,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.74335,130.77977
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Siritaun Wida Timur,Kian Laut,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.74103,130.76476
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Teluk Waru,Waru,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.43971,130.76503
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Teluk Waru,Waru,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.43913,130.76134
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Gah,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.51395,130.79173
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Gah,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.5122,130.78035
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Gah,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.51162,130.77657
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Kilmoy,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.66278,130.73471
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Kufar,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.47463,130.7863
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Kufar,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.46033,130.78468
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Waras-Waras,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.55055,130.80115
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Waras-Waras,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.54997,130.79738
+81,Maluku,Maluku,SERAM BAGIAN TIMUR,Tutuk Tolu,Kufar,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-3.46237,130.78564
+82,Maluku Utara,Maluku Utara,HALMAHERA BARAT,Ibu,Maritango,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,1.49947,127.63314
+82,Maluku Utara,Maluku Utara,HALMAHERA BARAT,Ibu,Maritango,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,1.49576,127.63316
+82,Maluku Utara,Maluku Utara,HALMAHERA BARAT,Ibu,Maritango,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,1.49637,127.62928
+82,Maluku Utara,Maluku Utara,HALMAHERA BARAT,Ibu,Maritango,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,1.49865,127.63726
+82,Maluku Utara,Maluku Utara,HALMAHERA BARAT,Ibu,Maritango,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,1.49926,127.63341
+82,Maluku Utara,Maluku Utara,HALMAHERA BARAT,Ibu Utara,Barona,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,1.50276,127.63363
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-1.65092,128.1277
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-1.45941,127.44238
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-1.6492,128.14018
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-1.65264,128.11525
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.56047,127.42611
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.55707,127.42662
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.45791,127.43864
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.4573,127.43488
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.45715,127.43871
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.45656,127.43494
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64932,128.14084
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64876,128.13733
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.63875,128.11732
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.63486,128.11433
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.63152,128.11485
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.63098,128.15448
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.63097,128.11134
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62875,128.1189
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62819,128.11539
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62542,128.14099
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62541,128.11942
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62263,128.12346
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62153,128.13802
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62097,128.13451
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.62041,128.13098
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.61985,128.12747
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.61929,128.12396
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.61763,128.13503
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.70583,128.04932
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.70249,128.04987
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.70193,128.04636
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65821,128.13226
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65766,128.12877
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65655,128.12173
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65599,128.11823
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65544,128.11472
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65543,128.13629
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65488,128.11121
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65488,128.13278
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65432,128.12927
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65321,128.12225
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65266,128.11876
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.6521,128.11525
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.6521,128.13681
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65155,128.11174
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65154,128.1333
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.65099,128.12981
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64932,128.11926
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64876,128.11575
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64654,128.12329
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64598,128.1198
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64543,128.11629
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.64153,128.1133
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.57305,127.42963
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.56699,127.43051
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.46098,127.43536
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi,Kawasi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.455,127.43673
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Sum,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.63212,128.11562
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-1.65678,128.11613
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.65807,128.11623
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.65486,128.13788
+82,Maluku Utara,Maluku Utara,HALMAHERA SELATAN,Obi Timur,Wooi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.65409,128.13274
+82,Maluku Utara,Maluku Utara,HALMAHERA TENGAH,Weda Tengah,Lililef Sawai,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.48298,128.00665
+82,Maluku Utara,Maluku Utara,HALMAHERA TENGAH,Weda Tengah,Lililef Sawai,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.48356,128.00302
+82,Maluku Utara,Maluku Utara,HALMAHERA TENGAH,Weda Tengah,Lililef Waibulan,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.4935,127.89655
+82,Maluku Utara,Maluku Utara,HALMAHERA TENGAH,Weda Tengah,Woekob,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.51108,127.89552
+82,Maluku Utara,Maluku Utara,HALMAHERA TENGAH,Weda Tengah,Woekob,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,0.51166,127.89185
+82,Maluku Utara,Maluku Utara,HALMAHERA TIMUR,Wasile Utara,Majiko Tongone,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,1.52678,128.43526
+82,Maluku Utara,Maluku Utara,HALMAHERA TIMUR,Wasile Utara,Dowongi Jaya,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,1.50116,128.37779
+82,Maluku Utara,Maluku Utara,PULAU TALIABU,Taliabu Timur,Samuya,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.73668,125.28829
+82,Maluku Utara,Maluku Utara,PULAU TALIABU,Taliabu Timur,Samuya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.7405,125.28866
+52,Nusa Tenggara Barat,Nusa Tenggara Barat,BIMA,Tambora,Kawinda Toi,2026-11-12T07:39:00+07:00,NASA-MODIS,Low,-8.11432,118.05122
+52,Nusa Tenggara Barat,Nusa Tenggara Barat,BIMA,Tambora,Oi Katupa,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-8.13202,118.11253
+52,Nusa Tenggara Barat,Nusa Tenggara Barat,BIMA,Tambora,Oi Katupa,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-8.13074,118.10353
+52,Nusa Tenggara Barat,Nusa Tenggara Barat,SUMBAWA,Alas Barat,Labuhan Mapin,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-8.50041,116.87621
+52,Nusa Tenggara Barat,Nusa Tenggara Barat,SUMBAWA BARAT,Maluk,Maluk,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.92292,116.76434
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,ALOR,Pantar Tengah,Aramaba,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.45532,124.17091
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,ALOR,Pantar Tengah,Aramaba,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.45713,124.16949
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Ile Ape Timur,Lamaau,2026-11-12T02:40:00+07:00,NASA-MODIS,High,-8.26825,123.51315
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Ile Ape Timur,Waimatan,2026-11-11T19:14:00+07:00,NASA-MODIS,High,-8.27158,123.50722
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Ile Ape,Kolontobo,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.27659,123.50491
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Ile Ape Timur,Lamagute,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.27286,123.506
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Ile Ape Timur,Jontona,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.2791,123.51117
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Ile Ape Timur,Lamawolo,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.27445,123.51556
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Ile Ape Timur,Lamawolo,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.27372,123.50997
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Wulandoni,Wulandoni,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.53671,123.44261
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Wulandoni,Wulandoni,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.53395,123.44176
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,LEMBATA,Wulandoni,Wulandoni,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-8.5315,123.4428
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,MANGGARAI BARAT,Komodo,Papa Garang,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-8.57594,119.72152
+53,Nusa Tenggara Timur,Nusa Tenggara Timur,SUMBA TIMUR,Wulla Waijelu,Hadakamali,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-10.24129,120.58243
+91,Papua,Papua,JAYAPURA,Unurum Guay,Beneik,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-2.59883,140.03688
+91,Papua,Papua,KOTA JAYAPURA,Heram,Kelurahan Hedam,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-2.59939,140.64696
+92,Papua Barat,Papua Barat,FAK FAK,Karas,Malakuli,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.64566,132.82561
+92,Papua Barat,Papua Barat,FAK FAK,Karas,Malakuli,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.64189,132.82642
+92,Papua Barat,Papua Barat,FAK FAK,Karas,Malakuli,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.63882,132.83185
+92,Papua Barat,Papua Barat,FAK FAK,Karas,Malakuli,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-3.63811,132.82713
+92,Papua Barat,Papua Barat,MANOKWARI SELATAN,Neney,Wama,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-1.51067,133.97276
+92,Papua Barat,Papua Barat,MANOKWARI SELATAN,Neney,Wama,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-1.50993,133.96815
+92,Papua Barat,Papua Barat,MANOKWARI SELATAN,Neney,Wama,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-1.50566,133.97261
+92,Papua Barat,Papua Barat,MANOKWARI SELATAN,Neney,Wama,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-1.50499,133.96843
+92,Papua Barat,Papua Barat,TELUK BINTUNI,Sumuri,Tanah Merah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-2.43964,133.14014
+96,Papua Barat Daya,Papua Barat Daya,SORONG SELATAN,Kokoda,Korewatara,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-2.26943,132.34007
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-12T06:01:00+07:00,NASA-MODIS,High,-7.93723,140.76173
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-12T01:02:00+07:00,NASA-MODIS,High,-8.12089,138.56485
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T17:36:00+07:00,NASA-MODIS,High,-8.43786,140.9873
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-12T01:02:00+07:00,NASA-MODIS,High,-8.2176,140.58424
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-12T01:02:00+07:00,NASA-MODIS,High,-8.20856,138.20734
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-12T01:02:00+07:00,NASA-MODIS,High,-8.20156,138.2009
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-12T01:02:00+07:00,NASA-MODIS,Low,-8.21232,138.22989
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-12T01:02:00+07:00,NASA-MODIS,Low,-8.17002,138.30605
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-12T01:02:00+07:00,NASA-MODIS,Medium,-7.93533,140.76807
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-12T01:02:00+07:00,NASA-MODIS,Medium,-7.93297,140.75372
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-12T06:01:00+07:00,NASA-MODIS,Medium,-8.96752,140.86356
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T17:36:00+07:00,NASA-MODIS,Medium,-8.44208,140.95251
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T17:36:00+07:00,NASA-MODIS,Medium,-8.43278,140.95801
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T17:36:00+07:00,NASA-MODIS,Medium,-8.42883,140.99277
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-12T01:02:00+07:00,NASA-MODIS,Medium,-8.43441,140.98593
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-12T01:02:00+07:00,NASA-MODIS,Medium,-8.21521,140.56955
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-12T01:02:00+07:00,NASA-MODIS,Medium,-8.2055,138.22342
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-12T01:02:00+07:00,NASA-MODIS,Medium,-8.1951,138.20966
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-12T01:02:00+07:00,NASA-MODIS,Medium,-8.18365,138.14148
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Kaisah,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.8797,140.39023
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Kaisah,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.83254,140.4458
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Kaisah,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.77603,140.42249
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Angger Permegi,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.11957,140.76852
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-7.91128,140.59639
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-7.90477,140.59776
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-7.90369,140.59218
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-7.88492,140.55731
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-7.88405,140.56081
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.90971,140.59599
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.90758,140.60138
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.90678,140.59525
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.85246,140.58347
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Gurinda Jaya,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.21807,140.76228
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Jemunain Jaya,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.79842,140.67769
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-7.93582,140.75912
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-7.93477,140.75365
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.93701,140.76021
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.93623,140.75397
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.93513,140.75914
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-7.93431,140.7529
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.9396,140.75929
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.9354,140.75871
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Poo,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.09688,140.79613
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Mambum,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.0187,138.65472
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.12559,138.56497
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.12502,138.56056
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.1202,138.57018
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.11963,138.56577
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.11905,138.56137
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Kaliki,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.18306,140.17902
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Kurik,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.27421,140.26805
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Salor Indah,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.22358,140.33603
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Salor Indah,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.22808,140.34003
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Salor Indah,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.22734,140.33415
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Salor Indah,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.22377,140.33539
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Wapeko,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.17228,140.41292
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Wapeko,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.16998,140.41267
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Wapeko,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17285,140.41377
+93,Papua Selatan,Papua Selatan,MERAUKE,Malind,Kumbe,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.33275,140.26329
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Bokem,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.5577,140.47202
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Kelurahan Rimba Jaya,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.54469,140.47472
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Kelurahan Rimba Jaya,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.5436,140.46907
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Nasem,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.55878,140.47765
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.96244,140.87462
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.9619,140.87857
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.94455,140.82005
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.94401,140.81952
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.92642,140.98129
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.79667,140.8889
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.89228,140.75992
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.88046,140.78271
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.87991,140.78668
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.85331,140.79109
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.84906,140.79048
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.81961,140.78748
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.77636,140.94173
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Dufmiraf,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.98563,139.4982
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Dufmiraf,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.98434,139.50764
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Es Wambi,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.939,139.46291
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Es Wambi,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.93864,139.46553
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Es Wambi,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.93836,139.46764
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Es Wambi,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.93404,139.4649
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Makaling,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.99561,139.66069
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Sanggase,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.07786,139.87315
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Sanggase,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.07349,139.90424
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.36146,140.31729
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.35889,140.31712
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.34606,140.30835
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.34496,140.30255
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.34228,140.30243
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.3652,140.32001
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.34506,140.30124
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.40255,140.31081
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.37145,140.31075
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.37043,140.31157
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.36428,140.32356
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.36159,140.31795
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.36052,140.31876
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.34865,140.3085
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Urumb,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.4118,140.37804
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Urumb,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.43439,140.4006
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Urumb,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.43381,140.40475
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Urumb,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.42488,140.37378
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Urumb,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.4243,140.37794
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Urumb,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.41735,140.36423
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Waninggap Kai,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.35129,140.42702
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Waninggap Kai,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.34942,140.42758
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Waninggap Nanggo,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.39013,140.36894
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Rawa Biru,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.65855,140.95312
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.44046,140.97946
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.43947,140.97426
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.43414,140.98074
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.43314,140.97554
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.43459,140.9782
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.43408,140.97653
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.44576,140.99359
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.44373,140.9778
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.43956,140.97719
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.43903,140.98102
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.43849,140.98483
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.43539,140.97661
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Toray,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-7.94032,140.90388
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Yanggandur,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.5485,140.88005
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Yanggandur,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.54215,140.88138
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.22154,140.57292
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.21625,140.57489
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.2152,140.56929
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.21504,140.57428
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.22059,140.57184
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.21383,140.57266
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.26896,140.64412
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.25878,140.58505
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.26571,140.58629
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.26515,140.5903
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.26144,140.58571
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.26089,140.58971
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Tambat,2026-11-11T22:16:00+07:00,NASA-NOAA20,Medium,-8.32107,140.56723
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Tambat,2026-11-12T10:51:00+07:00,NASA-NOAA20,Medium,-8.31297,140.62152
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.22215,138.21996
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.21519,138.2124
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.21464,138.20824
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.21408,138.20407
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20935,138.21318
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.2088,138.20901
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20824,138.20486
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20769,138.20071
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20577,138.14192
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20296,138.20979
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20241,138.20564
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20185,138.20149
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.20051,138.14684
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.19995,138.1427
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.19316,138.27084
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.19261,138.26663
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.19249,138.1311
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18833,138.14427
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18785,138.27585
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18778,138.14014
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18723,138.13603
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18669,138.13188
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18614,138.12778
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18254,138.28085
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18136,138.30731
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.18019,138.29887
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17998,138.30699
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17961,138.29465
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17903,138.29045
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17888,138.29854
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17833,138.29431
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17778,138.29008
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17548,138.30809
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.1749,138.30388
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17432,138.29965
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17411,138.30779
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17374,138.29541
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17361,138.1673
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17356,138.30356
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17301,138.29932
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.17246,138.2951
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16961,138.30887
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16903,138.30466
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16845,138.30042
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16823,138.30858
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16788,138.29619
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16769,138.30435
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16714,138.30011
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16692,138.20261
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16659,138.29588
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.1663,138.20207
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16258,138.30118
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16109,138.20338
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.16047,138.20287
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.14546,138.17592
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.14504,138.17538
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.14489,138.1718
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.14451,138.17126
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.13249,138.21143
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-8.12968,138.19067
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,High,-8.21374,138.20792
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,High,-8.21031,138.20848
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Baad,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.09105,140.50758
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Baad,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.92234,140.58376
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Kaisah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.8817,140.38815
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Kaisah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.83302,140.44946
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Kaisah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.77431,140.41971
+93,Papua Selatan,Papua Selatan,MERAUKE,Animha,Koa,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.88886,140.56418
+93,Papua Selatan,Papua Selatan,MERAUKE,Elikobal,Kweel,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.70793,140.99792
+93,Papua Selatan,Papua Selatan,MERAUKE,Elikobal,Kweel,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.70632,140.98749
+93,Papua Selatan,Papua Selatan,MERAUKE,Elikobal,Kweel,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.70462,140.99844
+93,Papua Selatan,Papua Selatan,MERAUKE,Elikobal,Kweel,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.70408,140.99495
+93,Papua Selatan,Papua Selatan,MERAUKE,Elikobal,Kweel,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.6475,140.96089
+93,Papua Selatan,Papua Selatan,MERAUKE,Ilwayab,Wanam,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.49648,139.0224
+93,Papua Selatan,Papua Selatan,MERAUKE,Ilwayab,Wanam,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.40559,139.2236
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.91459,140.59914
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.91405,140.59569
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.91183,140.60312
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.91129,140.59966
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.90799,140.60019
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.90745,140.59671
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.88832,140.5607
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Blandin Kakayo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.85044,140.69127
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Gurinda Jaya,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21987,140.76759
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Gurinda Jaya,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21934,140.76411
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Jemunain Jaya,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.8466,140.68832
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Jemunain Jaya,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.80152,140.68117
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Jemunain Jaya,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.80098,140.6777
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Melin Megikar,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.79768,140.67822
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.93937,140.75859
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.93661,140.76257
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.93607,140.75911
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Nalkin,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.93553,140.75563
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Obaat Trow,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23472,140.77597
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Poo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.10211,140.80066
+93,Papua Selatan,Papua Selatan,MERAUKE,Jagebob,Poo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.10157,140.7972
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Komolom,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.32388,138.74551
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Komolom,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.32051,138.74605
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Komolom,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.31993,138.74243
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Komolom,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.31262,138.73987
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Komolom,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.29791,138.71254
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Komolom,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22143,138.70995
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Komolom,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20151,138.79146
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Kumbis,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.04276,139.01186
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Kumbis,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.03276,139.03542
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Kumbis,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.02493,139.02934
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Kumbis,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.01824,139.03041
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Mambum,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.02818,138.84135
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Mambum,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.02199,138.65259
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Umanderu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.06045,138.7843
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Umanderu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.05092,138.78954
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.28995,138.4818
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.28716,138.48602
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.28656,138.48235
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.28596,138.47867
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.28495,138.47862
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.27699,138.47237
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.27301,138.46924
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.2612,138.48247
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.26061,138.47878
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.25807,138.52818
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.25749,138.52451
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.25468,138.52872
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.2541,138.52505
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.25188,138.53293
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.24939,138.49568
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.246,138.49623
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.24364,138.48151
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.24202,138.4931
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.24113,138.53091
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.24039,138.59113
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.24024,138.48206
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23877,138.51624
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23803,138.48997
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23523,138.49419
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23464,138.49051
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23243,138.49841
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23184,138.49474
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23022,138.5063
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22963,138.50262
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21789,138.60223
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.2173,138.59859
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.2101,138.61845
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20672,138.619
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19903,138.5715
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19575,138.62482
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19565,138.57205
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19517,138.62117
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19295,138.62901
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19167,138.56892
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19042,138.56944
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18704,138.56996
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18646,138.56631
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18365,138.57051
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18307,138.56686
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17746,138.57527
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17688,138.57161
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16976,138.61401
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13551,138.55193
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12932,138.55669
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12711,138.56456
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12652,138.56091
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12593,138.55724
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12432,138.56877
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12373,138.56511
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12314,138.56143
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12152,138.57298
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12093,138.56932
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.11872,138.57719
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.11813,138.57353
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.11652,138.58505
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.10801,138.66133
+93,Papua Selatan,Papua Selatan,MERAUKE,Kimaam,Webu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.10464,138.66188
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Salor Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23392,140.33568
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Salor Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22786,140.34016
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Salor Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22456,140.34068
+93,Papua Selatan,Papua Selatan,MERAUKE,Kurik,Wapeko,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17544,140.41576
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Kelurahan Rimba Jaya,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.54226,140.47836
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Kelurahan Rimba Jaya,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.54172,140.47488
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Nasem,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.5593,140.47923
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Nasem,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.556,140.47975
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Wasur,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.53997,140.50716
+93,Papua Selatan,Papua Selatan,MERAUKE,Merauke,Wasur,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.47471,140.61388
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-9.06642,140.96486
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.86386,140.82051
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Kondo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.79625,140.88847
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomer,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.80107,140.61227
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomer,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.72065,140.79613
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.89335,140.7688
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.89004,140.76932
+93,Papua Selatan,Papua Selatan,MERAUKE,Naukenjerai,Tomerau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.88556,140.78429
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Es Wambi,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.97766,139.41861
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Es Wambi,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.94,139.4174
+93,Papua Selatan,Papua Selatan,MERAUKE,Okaba,Es Wambi,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.92503,139.40897
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.36507,140.32213
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.35839,140.32684
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.34963,140.31403
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Matara,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.34471,140.30417
+93,Papua Selatan,Papua Selatan,MERAUKE,Semangga,Urumb,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.41821,140.38116
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Erambu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23928,141.00435
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Erambu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17543,140.9427
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Erambu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17212,140.94322
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Erambu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17158,140.93973
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Erambu,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1065,140.9819
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Rawa Biru,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.54718,140.88446
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.44295,140.97954
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.4424,140.97603
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.44017,140.98355
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.43963,140.98006
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.43909,140.97655
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.43631,140.98058
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.43577,140.97705
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.41078,141.01328
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.41024,141.00977
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.40736,140.88121
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.33356,140.88895
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Sota,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.33302,140.88547
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Yanggandur,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.54941,140.87695
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Yanggandur,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.54664,140.88095
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Yanggandur,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.53161,140.7404
+93,Papua Selatan,Papua Selatan,MERAUKE,Sota,Yanggandur,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.52683,140.86256
+93,Papua Selatan,Papua Selatan,MERAUKE,Tabonji,Iromoro,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.44961,138.46037
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.2244,140.5784
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22164,140.58237
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.2211,140.57892
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22056,140.57544
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.2178,140.57942
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Amunkay,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21726,140.57596
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Bersehati,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.30627,140.80045
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Hidup Baru,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.39464,140.53398
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.31073,140.62897
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.26929,140.64955
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.26342,140.59004
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.26288,140.58658
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.25958,140.5871
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Sarmayam Indah,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.25904,140.58362
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Tambat,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.32786,140.60851
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Tambat,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.32247,140.57379
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Tambat,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.32193,140.57033
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Yaba Maru,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.25155,140.51378
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Yaba Maru,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.24879,140.51776
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Yaba Maru,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23019,140.48518
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Yaba Maru,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22689,140.4857
+93,Papua Selatan,Papua Selatan,MERAUKE,Tanah Miring,Yaba Maru,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22581,140.47878
+93,Papua Selatan,Papua Selatan,MERAUKE,Tubang,Woboyo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.7972,139.20473
+93,Papua Selatan,Papua Selatan,MERAUKE,Tubang,Woboyo,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-7.79663,139.20119
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Konorau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.29456,138.22984
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Konorau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.29396,138.22609
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Konorau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.29114,138.23041
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Konorau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.28772,138.23094
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Konorau,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.26279,138.25032
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Sibenda,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.05824,138.15971
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23849,138.23087
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23746,138.2464
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.23327,138.22017
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22984,138.22073
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.22702,138.22504
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.223,138.22185
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21897,138.21863
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21494,138.21544
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21434,138.21169
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21313,138.20416
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21272,138.2235
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21212,138.21976
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21152,138.21599
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.21091,138.21223
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20971,138.20473
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20749,138.21278
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20689,138.14334
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20688,138.20903
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20628,138.20528
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20568,138.20151
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20406,138.14766
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20285,138.14011
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20063,138.14822
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20003,138.27548
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.20002,138.14445
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19661,138.27605
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19641,138.25304
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19601,138.27231
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1954,138.26855
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1948,138.26482
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19477,138.13367
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19319,138.2766
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19315,138.14557
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19299,138.25359
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19255,138.14178
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19236,138.18437
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19194,138.138
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19138,138.26538
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19133,138.13422
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19077,138.26163
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.19038,138.28088
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18977,138.27715
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18972,138.14612
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18911,138.14233
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1885,138.13857
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18789,138.13478
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18728,138.131
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18667,138.12721
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18606,138.12343
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18507,138.13911
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18435,138.30865
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18414,138.28572
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18354,138.28198
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18263,138.12399
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18254,138.29747
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18202,138.12021
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18194,138.29373
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18133,138.29001
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.18094,138.30922
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17973,138.30176
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17912,138.29802
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17752,138.30975
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17631,138.30231
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17571,138.29857
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1756,138.16776
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17499,138.16399
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17411,138.3103
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1735,138.30658
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1729,138.30284
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17229,138.29912
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17094,138.16077
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17069,138.31087
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.17009,138.30714
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16948,138.30341
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16888,138.29968
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16736,138.20384
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16667,138.30768
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16607,138.30396
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16568,138.15001
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16546,138.30023
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16394,138.20438
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.16051,138.20494
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.14998,138.1835
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.14814,138.17218
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.14532,138.17651
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.14471,138.17274
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13677,138.23189
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13615,138.22813
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13615,138.22829
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13431,138.21687
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13375,138.21324
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.1337,138.21312
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13332,138.23259
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13272,138.22885
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13135,138.1982
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13124,138.1981
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13075,138.19443
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13062,138.19434
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13015,138.19066
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.13001,138.19057
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12287,138.21117
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.12004,138.21547
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.11661,138.21602
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.11017,138.19775
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.10674,138.19832
+93,Papua Selatan,Papua Selatan,MERAUKE,Waan,Wantarma,2026-11-11T22:58:00+07:00,NASA-NOAA21,Medium,-8.10331,138.19887
+73,Sulawesi Selatan,Sulawesi Selatan,BONE,Lappariaja,Ujung Lamuru,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-4.66624,119.95998
+73,Sulawesi Selatan,Sulawesi Selatan,BONE,Bontocani,Kelurahan Kahu,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-5.04557,120.06007
+73,Sulawesi Selatan,Sulawesi Selatan,BONE,Bontocani,Kelurahan Kahu,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-5.0445,120.06279
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T02:38:00+07:00,NASA-MODIS,High,-2.57285,121.38618
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T02:38:00+07:00,NASA-MODIS,High,-2.57152,121.37744
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-2.5789,121.3824
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-12T07:37:00+07:00,NASA-MODIS,High,-2.58041,121.38362
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-2.66166,121.61047
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-2.57071,121.38477
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.65883,121.61562
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-12T02:38:00+07:00,NASA-MODIS,Medium,-2.65378,121.60862
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.57205,121.37901
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.57766,121.3831
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.57683,121.37812
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.57601,121.37313
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Loeha,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.6625,121.69183
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.65827,121.60658
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.6537,121.60824
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.5395,121.62904
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Tokalimbo,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.95098,121.47329
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Malili,Manurung,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.50848,121.03458
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.57864,121.39052
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.57806,121.3867
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.57397,121.3872
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.57341,121.38348
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.57285,121.37978
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.57229,121.37607
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.56918,121.41087
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Nuha,Sorowako,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.56878,121.38041
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.58216,121.38622
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.58159,121.38243
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.58102,121.37868
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.58045,121.37493
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.5775,121.38295
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Asuli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.57694,121.37923
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Loeha,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.71632,121.72623
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.6586,121.61147
+73,Sulawesi Selatan,Sulawesi Selatan,LUWU TIMUR,Towuti,Mahalona,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.54127,121.63531
+73,Sulawesi Selatan,Sulawesi Selatan,MAROS,Bantimurung,Baruga,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.94551,119.62314
+73,Sulawesi Selatan,Sulawesi Selatan,MAROS,Bantimurung,Baruga,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-4.94683,119.62583
+73,Sulawesi Selatan,Sulawesi Selatan,SOPPENG,Marioriwawo,Barae,2026-11-12T07:39:00+07:00,NASA-MODIS,High,-4.48449,120.04585
+73,Sulawesi Selatan,Sulawesi Selatan,SOPPENG,Marioriwawo,Barae,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-4.48584,120.05558
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Batui,Ondo-Ondolu,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-1.23375,122.38837
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Batui Selatan,Sinorang,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-1.38789,122.40176
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Batui Selatan,Paisu Buloli,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.38007,122.47787
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Batui Selatan,Sinorang,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.38198,122.40232
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Batui Selatan,Paisu Buloli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.38032,122.48083
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Batui Selatan,Sinorang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.38599,122.40453
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Batui Selatan,Sinorang,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.38473,122.40662
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI,Toili Barat,Makapa,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.56813,122.23928
+72,Sulawesi Tengah,Sulawesi Tengah,BANGGAI KEPULAUAN,Totikum Selatan,Tobungku,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-1.48302,123.44557
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-2.91295,121.79636
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-2.90933,121.80062
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bumi Raya,Lasampi,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-2.32289,121.61597
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,-2.82347,122.17268
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,-2.86718,122.16624
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,-2.82478,122.18138
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Le-Le,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,-2.77576,121.97536
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Ungkaya,2026-11-12T02:38:00+07:00,NASA-MODIS,Low,-2.25808,121.55781
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.82872,122.17339
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.87496,122.15493
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Lalampu,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.82641,122.04769
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Lalampu,2026-11-12T02:38:00+07:00,NASA-MODIS,Medium,-2.82384,122.05707
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Le-Le,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.77418,121.97134
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.91087,121.78955
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bumi Raya,Harapan Jaya,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.31115,121.70288
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bumi Raya,Lasampi,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.32143,121.62676
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bungku Timur,Bahomotefe,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.78086,121.77856
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Solonsa,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.18216,121.51769
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Baho Makmur,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82093,122.1424
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.86404,122.15008
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.83071,122.17359
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82995,122.16891
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82917,122.16422
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82616,122.17413
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82241,122.15135
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.87616,122.1597
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.87526,122.16199
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.86094,122.15958
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Lalampu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82892,122.0488
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Lalampu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82826,122.04477
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Lalampu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.82499,122.05334
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Le-Le,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.77412,121.97276
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.91003,121.79663
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bumi Raya,Harapan Jaya,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.30538,121.69606
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bungku Timur,Bahomotefe,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.77919,121.77349
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bungku Timur,Bahomotefe,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.77336,121.9682
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Menui Kepulauan,Tanona,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.17087,122.46069
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Ungkaya,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.25741,121.55347
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Ungkaya,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.2566,121.54864
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Ungkaya,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.25656,121.55096
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Baho Makmur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.82256,122.14474
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Baho Makmur,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.82194,122.14066
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.8656,122.15201
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.86378,122.15474
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Fatufia,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.82384,122.15318
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.87976,122.15829
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.87608,122.16328
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.86255,122.16128
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Labota,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.86013,122.15968
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Lalampu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.83011,122.05009
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Lalampu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.8294,122.04544
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Le-Le,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.77449,121.97112
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.91298,121.79562
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.91262,121.79786
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.91243,121.79192
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.91205,121.79414
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bahodopi,Siumbatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.90841,121.7985
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bumi Raya,Harapan Jaya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.31319,121.70019
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bumi Raya,Lasampi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.32192,121.61898
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bungku Timur,Bahomoahi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.73126,121.97054
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bungku Timur,Bahomoahi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.73103,121.9714
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Bungku Timur,Bahomotefe,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.78413,121.77814
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Solonsa,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.23193,121.49613
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Ungkaya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.25718,121.55302
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI,Wita Ponda,Ungkaya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.25661,121.54919
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-2.22333,121.36474
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-2.22174,121.3762
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-12T02:38:00+07:00,NASA-MODIS,High,-2.22125,121.37513
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-2.22953,121.37075
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Petasia,Tanauge,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-2.01073,121.42545
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-11T23:54:00+07:00,NASA-NOAA20,Medium,-2.22258,121.3681
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-2.2221,121.37151
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.22595,121.37268
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.22543,121.36922
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.2219,121.3733
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Lembo Raya,Bintangor Mukti,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.22138,121.36985
+72,Sulawesi Tengah,Sulawesi Tengah,MOROWALI UTARA,Soyo Jaya,Tambayoli,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.74978,121.34567
+72,Sulawesi Tengah,Sulawesi Tengah,PARIGI MOUTONG,Taopa,Karya Abadi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,0.51152,121.05319
+72,Sulawesi Tengah,Sulawesi Tengah,TOJO UNA UNA,Tojo,Buyuntaripa,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.509,121.14169
+72,Sulawesi Tengah,Sulawesi Tengah,TOJO UNA UNA,Tojo,Buyuntaripa,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.5083,121.14055
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Mata Usu,Kolombi Matausu,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-4.56984,121.77682
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Poleang Utara,Toburi,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-4.72376,121.76974
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Mata Usu,Morengke,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.45849,121.80954
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Mata Usu,Morengke,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.45581,121.81165
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Poleang Utara,Toburi,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.72472,121.76446
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Mata Usu,Lamuru,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.5094,121.79144
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Mata Usu,Morengke,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.45939,121.81126
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Mata Usu,Morengke,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.39592,121.87497
+74,Sulawesi Tenggara,Sulawesi Tenggara,BOMBANA,Poleang Utara,Toburi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.7265,121.76712
+74,Sulawesi Tenggara,Sulawesi Tenggara,BUTON UTARA,Kulisusu Barat,Lauki,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.67568,122.97745
+74,Sulawesi Tenggara,Sulawesi Tenggara,BUTON UTARA,Kulisusu Barat,Lauki,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.67505,122.97366
+74,Sulawesi Tenggara,Sulawesi Tenggara,BUTON UTARA,Kulisusu Barat,Lauki,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.67538,122.97707
+74,Sulawesi Tenggara,Sulawesi Tenggara,KOLAKA TIMUR,Loea,Tinomu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.07511,121.81903
+74,Sulawesi Tenggara,Sulawesi Tenggara,KOLAKA TIMUR,Loea,Tinomu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.077,121.82246
+74,Sulawesi Tenggara,Sulawesi Tenggara,KOLAKA UTARA,Porehu,Larui,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-2.91233,121.25408
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Nekudu,2026-11-11T19:16:00+07:00,NASA-MODIS,High,-3.67311,121.8363
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Morosi,2026-11-12T07:37:00+07:00,NASA-MODIS,Low,-3.90047,122.41574
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Abuki,Sambeani,2026-11-12T02:38:00+07:00,NASA-MODIS,Medium,-3.71046,121.9799
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Abuki,Sambeani,2026-11-12T02:38:00+07:00,NASA-MODIS,Medium,-3.70915,121.97122
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Awua Jaya,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-3.68294,121.83739
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Morosi,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-3.90061,122.41356
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Routa,Walandawe,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-3.17361,121.74254
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Routa,Walandawe,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-3.172,121.73102
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Abuki,Sambeani,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.71104,121.97348
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Abuki,Sambeani,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.70933,121.9712
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Angohi,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.66724,121.82805
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Awua Jaya,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.71334,121.84978
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Lasada,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.71494,121.85922
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Lasada,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.71413,121.85442
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Morosi,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.9029,122.4136
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Morosi,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.90004,122.41952
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Morosi,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.89933,122.41528
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Morosi,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.89922,122.41859
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Porara,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.87023,122.40604
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.86953,122.4018
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.86883,122.39755
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.86814,122.39334
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Uepai,Ameroro,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.91516,122.01995
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Abuki,Sambeani,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.71289,121.9721
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Abuki,Sambeani,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.70858,121.97278
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Anggaberi,Wunduongohi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.75276,122.12347
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Angohi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.67159,121.83066
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Lasada,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.71768,121.85484
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Lasada,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.71708,121.85078
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Lasada,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.71398,121.85943
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Asinua,Nekudu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.67222,121.83475
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Lambuya,Amberi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.9821,122.00084
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Morosi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.9041,122.41876
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Porara,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.87174,122.4071
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Porara,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.87031,122.40582
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.87285,122.39185
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.87107,122.40269
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.87039,122.39826
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.86972,122.39384
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.86967,122.40137
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.86904,122.39697
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Morosi,Tondowatu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.86839,122.39248
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Routa,Walandawe,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.01459,121.72777
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Uepai,Ameroro,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.92174,122.02324
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Uepai,Ameroro,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.91849,122.02135
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Uepai,Ameroro,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.91738,122.02382
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE,Wawotobi,Kelurahan Kasupute,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.88407,122.12881
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Angata,Pudambu,2026-11-12T07:37:00+07:00,NASA-MODIS,Medium,-4.19373,122.1029
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Konda,Lamomea,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-4.07829,122.46039
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Baito,Baito,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.19676,122.33384
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Moramo,Wawondengi,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.21104,122.60975
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Palangga Selatan,Lalowua,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.44425,122.35329
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Palangga Selatan,Mondoe,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.41768,122.44188
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Laeya,Puuwulo,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.37779,122.45294
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Laeya,Torobulu,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.41985,122.44389
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Moramo,Wawondengi,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.21322,122.61198
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Palangga Selatan,Lalowua,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.44861,122.35668
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE SELATAN,Palangga Selatan,Mondoe,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.4177,122.44249
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Oheo,Horoe,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-3.45098,122.04741
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Oheo,Horoe,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-3.44956,122.05809
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Wiwirano,Pondoa,2026-11-11T19:16:00+07:00,NASA-MODIS,Medium,-3.11178,122.05145
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Asera,Amorome Utama,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.53227,122.05997
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Asera,Oheo Trans,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.53673,122.05897
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Landawe,Tambakua,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.26092,122.21342
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Langgikima,Mekar Jaya,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.32384,122.20463
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Langgikima,Polora Indah,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.32125,122.20235
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Oheo,Horoe,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-3.45088,122.05379
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Asera,Oheo Trans,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.53608,122.05973
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Langgikima,Mekar Jaya,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.32381,122.20693
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Oheo,Horoe,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.454,122.05592
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Oheo,Horoe,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.44957,122.05582
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Oheo,Laronaha,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.44531,122.02738
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Oheo,Paka Indah,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.33931,122.16117
+74,Sulawesi Tenggara,Sulawesi Tenggara,KONAWE UTARA,Wiwirano,Pondoa,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-3.11138,122.05354
+74,Sulawesi Tenggara,Sulawesi Tenggara,KOTA KENDARI,Poasia,Kelurahan Andonohu,2026-11-12T02:38:00+07:00,NASA-MODIS,Medium,-4.06626,122.56452
+74,Sulawesi Tenggara,Sulawesi Tenggara,KOTA KENDARI,Baruga,Kelurahan Baruga,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.05013,122.50794
+74,Sulawesi Tenggara,Sulawesi Tenggara,KOTA KENDARI,Baruga,Kelurahan Baruga,2026-11-11T23:56:00+07:00,NASA-NOAA20,Medium,-4.0458,122.50865
+74,Sulawesi Tenggara,Sulawesi Tenggara,KOTA KENDARI,Baruga,Kelurahan Baruga,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-4.04824,122.50933
+74,Sulawesi Tenggara,Sulawesi Tenggara,MUNA BARAT,Tiworo Kepulauan,Lasama,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-4.77435,122.43433
+74,Sulawesi Tenggara,Sulawesi Tenggara,MUNA BARAT,Tiworo Kepulauan,Lasama,2026-11-12T07:39:00+07:00,NASA-MODIS,Medium,-4.77247,122.42078
+71,Sulawesi Utara,Sulawesi Utara,KEPULAUAN SIAU TAGULANDANG BIARO,Siau Barat Utara,Kawahang,2026-11-12T02:36:00+07:00,NASA-MODIS,Medium,2.78349,125.40468
+71,Sulawesi Utara,Sulawesi Utara,KEPULAUAN SIAU TAGULANDANG BIARO,Siau Barat Utara,Nameng,2026-11-11T19:18:00+07:00,NASA-MODIS,Medium,2.78353,125.4097
+13,Sumatera Barat,Sumatera Barat,DHARMASRAYA,Koto Baru,Koto Padang,2026-11-11T15:58:00+07:00,NASA-MODIS,Medium,-1.10649,101.58824
+13,Sumatera Barat,Sumatera Barat,DHARMASRAYA,Koto Besar,Abai Siat,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-1.21208,101.61882
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Suak Tapeh,Talang Ipuh,2026-11-11T15:56:00+07:00,NASA-MODIS,Low,-2.87676,104.30495
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Banyuasin III,Petaling,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.94909,104.32224
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Suak Tapeh,Air Senggeris,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.88166,104.33328
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Suak Tapeh,Lubuk Lancang,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.72454,104.40565
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Banyuasin II,Tanah Pilih,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.85707,104.36142
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Banyuasin II,Tanah Pilih,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.85653,104.35796
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Banyuasin II,Tanah Pilih,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.85371,104.36195
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Banyuasin II,Tanah Pilih,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.85316,104.35851
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Banyuasin II,Tanah Pilih,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-1.8493,104.35557
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Rambutan,Gelebak Dalam,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.10087,104.85661
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Tungkal Ilir,Bentayan,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.43099,104.12252
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Banyuasin II,Tanah Pilih,2026-11-12T00:38:00+07:00,NASA-NOAA21,Medium,-1.85235,104.3591
+16,Sumatera Selatan,Sumatera Selatan,BANYUASIN,Rambutan,Gelebak Dalam,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-3.10056,104.85903
+16,Sumatera Selatan,Sumatera Selatan,LAHAT,Tanjungtebat,Air Dingin Lama,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.97832,103.43089
+16,Sumatera Selatan,Sumatera Selatan,LAHAT,Tanjungtebat,Tanjung Bai,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.9796,103.42219
+16,Sumatera Selatan,Sumatera Selatan,LAHAT,Tanjungtebat,Tanjung Menang,2026-11-11T14:35:00+07:00,NASA-NOAA20,Medium,-3.97205,103.48632
+16,Sumatera Selatan,Sumatera Selatan,LAHAT,Tanjungtebat,Tanjung Menang,2026-11-11T14:35:00+07:00,NASA-NOAA20,Medium,-3.97112,103.48312
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Gelumbang,Jambu,2026-11-11T15:56:00+07:00,NASA-MODIS,High,-3.28992,104.33362
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Panang Enim,Bedegung,2026-11-11T15:56:00+07:00,NASA-MODIS,High,-4.06615,103.76126
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Belida Darat,Gaung Asam,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.38595,104.42712
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Gelumbang,Jambu,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.29126,104.32467
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Gunung Megang,Gunung Megang Luar,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.42115,103.87331
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Lubai,Beringin,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.70474,104.27414
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Tanjung Agung,Tanjung Lalang,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.85278,103.8334
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Gelumbang,Gaung Telang,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.31579,104.32443
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Muara Belida,Mulia Abadi,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.09393,104.53499
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Muara Belida,Mulia Abadi,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.09338,104.53148
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Muara Belida,Mulia Abadi,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.09004,104.532
+16,Sumatera Selatan,Sumatera Selatan,MUARA ENIM,Muara Belida,Mulia Abadi,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.0867,104.53252
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Batang Hari Leko,Ulak Kembang,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.55749,103.59962
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Batang Hari Leko,Ulak Kembang,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.55619,103.60836
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Lais,Petaling,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.91859,104.08293
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Lais,Petaling,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.91728,104.0918
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Lais,Tanjung Agung Utara,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.94378,104.17506
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Sungai Keruh,Sindang Marga,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.07657,103.839
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Sungai Keruh,Sukalali,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.14349,103.75037
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Babat Supat,Supat,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.69415,104.02438
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Babat Supat,Supat,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.69084,104.02489
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Batang Hari Leko,Talang Buluh,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.48167,103.64973
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Batang Hari Leko,Talang Buluh,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.47837,103.65025
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Batang Hari Leko,Talang Buluh,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.47782,103.64681
+16,Sumatera Selatan,Sumatera Selatan,MUSI BANYUASIN,Lawang Wetan,Ulak Paceh,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-2.74863,103.74469
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Suka Karya,Ciptodadi II,2026-11-11T15:56:00+07:00,NASA-MODIS,High,-3.18816,103.20465
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Muara Kelingi,Bingin Janggut,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.00858,103.29027
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Muara Kelingi,Bingin Janggut,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.0073,103.29897
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Muara Kelingi,Lubuk Muda,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.0502,103.18973
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Muara Kelingi,Lubuk Tua,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.04892,103.19843
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Muara Kelingi,Mangan Jaya,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.14888,103.35003
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Muara Lakitan,Prabumulih I,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.83308,103.28755
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Muara Lakitan,Semanggus Baru,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.01944,103.3986
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,STL Ulu Terawas,Terawas,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.08168,102.79314
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,STL Ulu Terawas,Terawas,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.00398,102.75795
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Sumber Harta,Sukarami Jaya,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.02481,102.93662
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Tiang Pumpung Kepungut,Simpang Gegas Temuan,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.24471,103.12404
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Tuah Negeri,Petunang,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.17724,103.01914
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS,Tuah Negeri,Petunang,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.17596,103.02786
+16,Sumatera Selatan,Sumatera Selatan,MUSI RAWAS UTARA,Karang Jaya,Embacang Baru Ilir,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-2.89332,102.87817
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Payaraman,Lubuk Bandung,2026-11-11T15:56:00+07:00,NASA-MODIS,High,-3.43722,104.5244
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Payaraman,Lubuk Bandung,2026-11-11T15:56:00+07:00,NASA-MODIS,High,-3.43587,104.53345
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Payaraman,Seri Kembang III,2026-11-11T15:56:00+07:00,NASA-MODIS,High,-3.38764,104.53817
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Indralaya Utara,Pulau Kabai,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.16965,104.57697
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Payaraman,Seri Kembang III,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.37873,104.53683
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Payaraman,Seri Kembang III,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.37738,104.54591
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Rambang Kuang,Tambang Rambang,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.54109,104.44418
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Indralaya Utara,Pulau Kabai,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.1651,104.57432
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Indralaya Utara,Pulau Kabai,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.16455,104.5708
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Indralaya Utara,Soak Batok,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.10075,104.70381
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Rantau Alai,Mekar Sari,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.42033,104.72655
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Indralaya Utara,Pulau Kabai,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-3.16579,104.57422
+16,Sumatera Selatan,Sumatera Selatan,OGAN ILIR,Indralaya Utara,Pulau Kabai,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-3.16498,104.56942
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Cengal,Balam Jeruju,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.48757,105.60035
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Lempuing Jaya,Rantau Durian I,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.71239,104.95033
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Pangkalan Lampam,Lirik,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.18635,105.08241
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Pedamaran Timur,Kayu Labu,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.55815,105.26566
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Tulung Selapan,Simpang Tiga Abadi,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.34872,105.78448
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Tulung Selapan,Simpang Tiga Abadi,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.34812,105.78065
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Pangkalan Lampam,Deling,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-3.25599,105.07234
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Sungai Menang,Gajah Mati,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-3.97838,105.67157
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Tulung Selapan,Simpang Tiga Abadi,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-3.35169,105.78283
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ILIR,Tulung Selapan,Simpang Tiga Abadi,2026-11-12T00:41:00+07:00,NASA-NOAA21,Medium,-3.34598,105.78374
+16,Sumatera Selatan,Sumatera Selatan,OGAN KOMERING ULU TIMUR,Cempaka,Maluai Indah,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.82919,104.71477
+16,Sumatera Selatan,Sumatera Selatan,PENUKAL ABAB LEMATANG ILIR,Talang Ubi,Semangus,2026-11-11T15:56:00+07:00,NASA-MODIS,Medium,-3.32958,103.62061
+16,Sumatera Selatan,Sumatera Selatan,PENUKAL ABAB LEMATANG ILIR,Penukal,Air Itam,2026-11-12T01:36:00+07:00,NASA-NOAA20,Medium,-3.14708,104.05231

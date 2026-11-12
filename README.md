@@ -1,61 +1,64 @@
-# Multi-DBMS Data Pipeline: Karhutla, ISPA & Asap Lintas Negara
+# Karhutla Indonesia: Multi-DBMS Data Pipeline & Web Visualization
 
 Tugas Mandiri Terstruktur — Visualisasi Data dan Informasi.
-Dashboard interaktif yang menggabungkan **PostgreSQL** (data kesehatan) dan **MongoDB Atlas** (telemetri sensor & geospasial) di tingkat aplikasi dengan **pandas**, lalu menampilkannya dengan **Streamlit + Plotly**.
+Dashboard interaktif yang menggabungkan **PostgreSQL** (luas karhutla per provinsi-tahun) dan **MongoDB Atlas** (titik hotspot berkoordinat) di tingkat aplikasi dengan **pandas**, lalu menampilkannya dengan **Streamlit + Plotly**.
 
 - **Live app:** `[ISI: URL Streamlit Community Cloud]`
 - **Repositori:** `[ISI: URL GitHub ini]`
+- **Sumber data:** SIPONGI KEMENHUT (lihat bagian 6)
 
 ## 1. Studi kasus & alasan memakai dua DBMS
 
-Kebakaran hutan dan lahan (karhutla) memicu kabut asap yang berdampak pada kesehatan (ISPA) dan melintasi batas negara. Dua jenis data dengan karakter berbeda dipisah sesuai kekuatan masing-masing DBMS:
+Kebakaran hutan dan lahan (karhutla) dipantau dari dua sisi: **dampak historis** (luas lahan terbakar per provinsi tiap tahun) dan **kejadian terkini** (titik panas satelit berkoordinat). Keduanya berbeda karakter, sehingga dipisah sesuai kekuatan tiap DBMS:
 
 | DBMS | Engine | Fungsi | Alasan |
 |---|---|---|---|
-| 1 | PostgreSQL (Supabase/Neon) | Data master provinsi & kesehatan (`data_kesehatan`) | Struktur tetap, butuh constraint (PK, UNIQUE, CHECK) |
-| 2 | MongoDB Atlas | Telemetri sensor & geospasial (`telemetri_sensor`) | Dokumen fleksibel; `negara_terdampak` berupa array, field sensor bisa bertambah |
+| 1 | PostgreSQL (Supabase/Neon) | `provinsi` + `luas_karhutla` (provinsi × tahun, 2018–2026) | Struktur tetap, butuh PK, FK, UNIQUE, CHECK |
+| 2 | MongoDB Atlas | `hotspot_detail` (1.276 titik: desa, satelit, confidence, waktu, lokasi GeoJSON) | Dokumen kejadian berlokasi, skema fleksibel, indeks geospasial `2dsphere` |
 
-Kunci integrasi: `prov_id`.
+Kunci integrasi: `kode_wilayah` (kode 2 digit provinsi).
 
 ## 2. Arsitektur & alur pipeline
 
 ```mermaid
 flowchart LR
-    A[(PostgreSQL<br/>data_kesehatan)] -->|SQLAlchemy + read_sql| C[pandas<br/>merge on prov_id]
-    B[(MongoDB Atlas<br/>telemetri_sensor)] -->|PyMongo + find| C
-    C --> D[Validasi: data yatim,<br/>kategori ISPU]
+    A[(PostgreSQL<br/>provinsi, luas_karhutla)] -->|SQLAlchemy + read_sql| C[pandas<br/>merge on kode_wilayah]
+    B[(MongoDB Atlas<br/>hotspot_detail)] -->|PyMongo + find| C
+    C --> D[Validasi integritas,<br/>agregasi per provinsi]
     D --> E[Streamlit + Plotly]
 ```
 
-1. `load_postgres()` membaca tabel dengan SQLAlchemy; `load_mongo()` membaca koleksi dengan PyMongo dan menormalkan skema.
-2. `integrate()` melakukan `merge(..., on="prov_id", validate="one_to_one")` dan melaporkan `prov_id` yang hanya ada di salah satu DBMS.
-3. Nilai ISPU dikelompokkan ke kategori resmi (Baik … Berbahaya), lalu difilter dan divisualkan.
-4. Hasil dimuat dengan cache 10 menit; tombol "Muat ulang data" membersihkan cache.
+1. `load_postgres()` menggabungkan `luas_karhutla` dan `provinsi` (JOIN SQL) lalu memuatnya ke DataFrame.
+2. `load_mongo()` membaca dokumen hotspot dan menormalkan skema (koordinat dari GeoJSON, waktu ke WIB).
+3. Hotspot diagregasi per provinsi, lalu `merge(..., on="kode_wilayah", validate="one_to_one")` dengan luas karhutla tahun fokus. Kode wilayah hotspot tanpa master provinsi dilaporkan.
+4. Hasil di-cache 10 menit; tombol "Muat ulang data" membersihkan cache.
 5. Jika koneksi gagal, aplikasi menampilkan penyebab spesifik (password disensor) dan berhenti. Tidak ada data pengganti: semua angka selalu berasal dari kedua database.
 
 ## 3. Fitur interaktif
 
-- Filter pulau, provinsi, dan rentang nilai ISPU (sidebar)
-- Status peringatan berdasarkan kategori ISPU tertinggi
-- Peta sebaran hotspot (ukuran = hotspot, warna = kategori ISPU) dengan hover detail
-- Grafik negara tetangga terdampak
-- Scatter ISPU vs korban meninggal dengan garis tren dan koefisien korelasi (n ditampilkan)
-- Bar chart korban, hotspot, dan luas lahan terbakar
-- Tabel hasil join + unduh CSV
-- Indikator status koneksi tiap DBMS dan tombol muat ulang data
+- Filter: rentang tahun, tahun fokus, wilayah, provinsi, satelit, confidence
+- Peta hotspot (mode **Titik** berwarna per confidence, atau **Kepadatan**) dengan hover detail desa/satelit/waktu
+- Tren total luas karhutla, luas per wilayah, 10 provinsi terluas, heatmap provinsi × tahun
+- Analisis gabungan PostgreSQL × MongoDB: luas karhutla vs hotspot dengan korelasi Spearman (n ditampilkan)
+- Tabel data + unduh CSV, status koneksi tiap DBMS, tombol muat ulang
 
 ## 4. Struktur repositori
 
 ```
-app.py                       # aplikasi Streamlit
+app.py                          # aplikasi Streamlit
 requirements.txt
+data/
+  raw/                          # berkas mentah SiPongi+ (xlsx)
+  luas_karhutla_provinsi.csv    # -> PostgreSQL
+  hotspot_detail.csv            # -> MongoDB
+  README.md                     # kamus data, transformasi, validasi
 database/
-  schema.sql                 # DDL PostgreSQL + dokumentasi skema MongoDB
-  seed_data.py               # seed PostgreSQL & MongoDB (idempotent)
-  seed_mongodb.json          # seed MongoDB dalam JSON (untuk mongoimport)
-  reference_data.py          # sumber tunggal data seed
-  connections.py             # pembangun URL koneksi
-.streamlit/secrets.toml.example
+  schema.sql                    # DDL PostgreSQL + dokumentasi skema MongoDB
+  prepare_data.py               # xlsx mentah -> CSV bersih (dengan validasi)
+  seed_data.py                  # seed PostgreSQL & MongoDB
+  data_loader.py                # membaca & memvalidasi CSV
+  connections.py                # pembangun URL koneksi (tanpa kredensial)
+.streamlit/secrets.toml.example # contoh secrets (secrets asli tidak di-commit)
 ```
 
 ## 5. Konfigurasi & menjalankan
@@ -68,36 +71,40 @@ streamlit run app.py
 ```
 
 Kredensial dibaca dari `st.secrets` / environment variable. **Tidak ada password di kode.**
-Variabel: `PG_URL` (atau `PG_HOST`, `PG_PORT`, `PG_DB`, `PG_USER`, `PG_PASS`, `PG_SSLMODE`), `MONGO_URI`, `MONGO_DB`, `MONGO_COLLECTION`.
+Variabel: `PG_URL` (atau `PG_HOST`, `PG_PORT`, `PG_DB`, `PG_USER`, `PG_PASS`, `PG_SSLMODE`), `MONGO_URI`, `MONGO_DB`.
 
-**Deploy (Streamlit Community Cloud):** hubungkan repo, pilih `app.py`, lalu tempel isi secrets di *Settings → Secrets*.
+**Deploy (Streamlit Community Cloud):** hubungkan repo, pilih `app.py`, tempel isi secrets di *Settings → Secrets*.
 
 Catatan:
-- Supabase: koneksi langsung (`db.<ref>.supabase.co`) memakai IPv6 dan bisa gagal dari Streamlit Cloud (`Network is unreachable`). Gunakan connection string **pooler** dari dashboard Supabase.
-- MongoDB Atlas: di Network Access izinkan akses dari Streamlit Cloud (IP-nya dinamis, umumnya `0.0.0.0/0`; gunakan password kuat).
-- Seed dari laptop lokal: isi `.streamlit/secrets.toml`, lalu `python database/seed_data.py`.
+- Supabase: koneksi langsung (`db.<ref>.supabase.co`) memakai IPv6 dan bisa gagal dari Streamlit Cloud (`Network is unreachable`). Gunakan connection string **pooler**.
+- MongoDB Atlas: di Network Access izinkan akses dari Streamlit Cloud (IP dinamis, umumnya `0.0.0.0/0`; gunakan password kuat).
+- Seed koleksi hotspot bersifat snapshot: isinya diganti seluruhnya setiap dijalankan.
 
 ## 6. Sumber data (primer)
 
-> Isi dengan tautan dataset asli sebelum dikumpulkan. Contoh portal: SiPongi KLHK (hotspot & luas karhutla), BMKG / KLHK (ISPU & PM2.5), Kemenkes / BPS (ISPA), Satu Data Indonesia.
+**SIPONGI KEMENHUT** — SiPongi+ Sistem Pemantauan Karhutla, Kementerian Kehutanan (https://sipongi.gakkum.kehutanan.go.id/), diakses 12 November 2026. SiPongi+ mewajibkan pencantuman sumber ini pada setiap penggunaan datanya.
 
-| Data | Sumber | URL |
+| Data | Berkas mentah | URL halaman data |
 |---|---|---|
-| Kasus ISPA & korban | `[ISI]` | `[ISI]` |
-| Hotspot & luas lahan terbakar | `[ISI]` | `[ISI]` |
-| ISPU | `[ISI]` | `[ISI]` |
-| Negara terdampak | `[ISI]` | `[ISI]` |
+| Luas karhutla per provinsi 2018–2026 | `data/raw/luas-karhutla-provinsi.xlsx` | `[ISI: URL halaman SiPongi+ tempat unduhan]` |
+| Sebaran hotspot (11–12 Nov 2026) | `data/raw/sebaran-hotspot.xlsx` | `[ISI: URL halaman Data → Hotspot]` |
 
-**Status data seed:** `[ISI: "Diambil dari sumber di atas pada <tanggal>" ATAU "Data ilustratif/simulasi untuk keperluan demonstrasi"]`
-
-Kategori ISPU mengacu pada Permen LHK No. P.14/MENLHK/SETJEN/KUM.1/7/2020 (verifikasi di dokumen resmi).
+Validasi: total tahunan pada berkas luas (mis. 2022: 204.894 ha; 2023: 1.161.192,9 ha; 2024: 376.805,05 ha) sama dengan angka yang dilaporkan media yang merujuk SiPongi; jumlah per provinsi cocok dengan baris Total; total titik hotspot pada sheet `Akumulasi` dan `Detail` sama (1.276). Rincian transformasi: `data/README.md`.
 
 ## 7. Referensi kode / inspirasi
 
-`[ISI: tautan repositori publik atau dokumentasi yang benar-benar dipelajari/diadaptasi]`
+| Repositori | Teknik yang dirujuk |
+|---|---|
+| [SofianeOuaari/Data-Streaming-Kafka-MongoDB-PostgreSQL-Streamlit](https://github.com/SofianeOuaari/Data-Streaming-Kafka-MongoDB-PostgreSQL-Streamlit) | Menyimpan data di MongoDB (NoSQL) dan PostgreSQL (SQL) sekaligus, `init.sql` untuk inisialisasi skema, dashboard Streamlit yang membaca keduanya |
+| [Leonardobrito95/comercial-dashboard](https://github.com/Leonardobrito95/comercial-dashboard) (MIT) | Memisahkan modul koneksi tiap DBMS, konfigurasi lewat environment variable, menyatukan data MongoDB + SQL di satu panel Streamlit + Plotly |
+
+Dokumentasi resmi: [Streamlit](https://docs.streamlit.io), [Plotly](https://plotly.com/python/), [SQLAlchemy](https://docs.sqlalchemy.org), [PyMongo](https://pymongo.readthedocs.io).
+Kode pada repositori ini ditulis sendiri; repositori di atas hanya menjadi rujukan pola arsitektur.
 
 ## 8. Keterbatasan
 
-- Data berupa satu snapshot per provinsi (belum ada dimensi waktu).
-- Jumlah korban/ISPA bersifat absolut dan belum dinormalisasi per jumlah penduduk, sehingga provinsi padat penduduk (mis. di Jawa) tidak sebanding langsung dengan provinsi lain.
-- Korelasi pada n kecil bersifat indikatif, bukan bukti sebab-akibat.
+- Hotspot adalah **snapshot ±24 jam** (11–12 Nov 2026), bukan deret waktu. Hotspot juga hanya indikasi anomali suhu satelit, bukan kepastian kebakaran, dan satu kebakaran bisa terdeteksi sebagai beberapa titik.
+- Luas karhutla 2026 adalah data berjalan. Angka 2025 (12.226,72 ha) jauh lebih rendah dari tahun lain; ini apa adanya dari berkas SiPongi dan belum diverifikasi lebih lanjut.
+- Korelasi luas vs hotspot bersifat indikatif: periode dan sifat datanya berbeda (akumulasi tahunan vs snapshot).
+- `IKN` pada hotspot dikelompokkan ke Kalimantan Timur (asumsi; nama asli disimpan).
+- Data dampak kesehatan (ISPA) dan kualitas udara (ISPU) tidak dimasukkan karena tidak tersedia sebagai data terbuka yang dapat diunduh.
